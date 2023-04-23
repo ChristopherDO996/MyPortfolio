@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Controller;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,4 +16,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('master');
+});
+/* Form */
+Route::prefix('home')->group(function () {
+    Route::post('sendData', 'formController@send')->name('sendData');
 });

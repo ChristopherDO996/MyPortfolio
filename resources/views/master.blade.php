@@ -17,7 +17,7 @@
                 <header class="header">
                     <a class="header--logo" href="#0">
                         <img src="{{ asset('/img/logo.png') }}" alt="Global">
-                        <p>Christopher DO</p>
+                        <p>Christopher Díaz Osorio</p>
                     </a>
                     <button class="header--cta cta">Contáctame</button>
                     <div class="header--nav-toggle">
@@ -34,10 +34,16 @@
                     </ul>
                 </nav>
                 <ul class="l-main-content main-content">
+                    {{-- Main Home --}}
                     <li class="l-section section section--is-active">
                         <div class="intro">
                             <div class="intro--banner">
-                                <h1>Your next<br>interactive<br>experience</h1>
+                                <video src="{{ asset('img/fondo.mp4') }}"
+                                    style="width: 100%;height: 95%;
+                                position: absolute;
+                                z-index: -1;"
+                                    autoplay muted loop playsinline></video>
+                                <h1>Full Stack<br>Developer<br>Middle</h1>
                                 <button class="cta">Contáctame
                                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -50,58 +56,67 @@
                                     </svg>
                                     <span class="btn-background"></span>
                                 </button>
-                                <img src="{{ asset('/img/introduction-visual.png') }}" alt="Welcome">
+                                {{-- <img src="{{ asset('/img/introduction-visual.png') }}" alt="Welcome"> --}}
                             </div>
                             <div class="intro--options">
                                 <a href="#0">
-                                    <h3>Metiew &amp; Smith</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                                    <h3>Diseño, desarrollo y administración de BD</h3>
+                                    <p>He diseñado, construido y gestionado bases de datos relacionales desde hace más
+                                        de <strong>3 años.</strong></p>
                                 </a>
                                 <a href="#0">
-                                    <h3>Fantasy interactive</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                                    <h3>Diseño Front end e implementación back end</h3>
+                                    <p>He diseñado sitios estáticos y dinámicos a la medida, así como construido el
+                                        procesamiento a través del back end desde hace más de <strong>3 años.</strong>
+                                    </p>
                                 </a>
                                 <a href="#0">
-                                    <h3>Paul &amp; shark</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                                    <h3>Asesoría y acompañamiento</h3>
+                                    <p>He sido partícipe de grandes proyectos desde el simple asesoramiento a clientes
+                                        diversos para asegurar un entregable de calidad y que cumpla con sus
+                                        expectativas.</p>
                                 </a>
                             </div>
                         </div>
                     </li>
+                    {{-- Realized Projects --}}
                     <li class="l-section section">
                         <div class="work">
-                            <h2>Selected work</h2>
+                            <h2>Proyectos realizados</h2>
                             <div class="work--lockup">
                                 <ul class="slider">
                                     <li class="slider--item slider--item-left">
-                                        <a href="#0">
+                                        <a href="www.ponte-visual.com" target="_blank">
                                             <div class="slider--item-image">
-                                                <img src="{{ asset('/img/work-victory.jpg') }}" alt="Victory">
+                                                <img src="{{ asset('/img/work-victory.jpg') }}" alt="Ponte Visual">
                                             </div>
-                                            <p class="slider--item-title">Victory</p>
-                                            <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur
-                                                adipisicing elit sed do.</p>
+                                            <p class="slider--item-title">Ponte Visual</p>
+                                            <p class="slider--item-description">Agenda virtual de citas y portafolio
+                                                fotográfico con pasarela de pagos.<br>Tecnologías: PHP 8 (Laravel 10),
+                                                HTML 5, CSS (Bootstrap 5), Javascript (Vue JS), Git</p>
                                         </a>
                                     </li>
                                     <li class="slider--item slider--item-center">
-                                        <a href="#0">
+                                        <a href="pruebas.epoem50.edu.mx" target="_blank">
                                             <div class="slider--item-image">
-                                                <img src="{{ asset('/img/work-metiew-smith.jpg') }}"
-                                                    alt="Metiew and Smith">
+                                                <img src="{{ asset('/img/work-metiew-smith.jpg') }}" alt="Epoem 50">
                                             </div>
-                                            <p class="slider--item-title">Metiew &amp; Smith</p>
-                                            <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur
-                                                adipisicing elit sed do.</p>
+                                            <p class="slider--item-title">EPOEM 50</p>
+                                            <p class="slider--item-description">Sistema educativo tipo Moodle a la
+                                                medida de la EPO 50<br>Tecnologías: PHP 7, HTML 5, CSS (Bootstrap 5),
+                                                Javascript (jQuery), Git (Github y Webhooks)</p>
                                         </a>
                                     </li>
                                     <li class="slider--item slider--item-right">
-                                        <a href="#0">
+                                        <a href="www.batasyea.com" target="_blank">
                                             <div class="slider--item-image">
-                                                <img src="{{ asset('/img/work-alex-nowak.jpg') }}" alt="Alex Nowak">
+                                                <img src="{{ asset('/img/work-alex-nowak.jpg') }}" alt="Batas Yeah">
                                             </div>
-                                            <p class="slider--item-title">Alex Nowak</p>
-                                            <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur
-                                                adipisicing elit sed do.</p>
+                                            <p class="slider--item-title">Batas Yeah</p>
+                                            <p class="slider--item-description">Tienda virtual con pasarelas de pagos,
+                                                gestión de inventarios y control de productos.<br>Tecnologías: PHP 8
+                                                (Laravel 10), HTML 5, CSS (Tailwind), Javascript (Vue JS), Git<br>App en
+                                                desarrollo con Flutter</p>
                                         </a>
                                     </li>
                                 </ul>
@@ -132,6 +147,7 @@
                             </div>
                         </div>
                     </li>
+                    {{-- Details about me --}}
                     <li class="l-section section">
                         <div class="about">
                             <div class="about--banner">
@@ -164,6 +180,7 @@
                             </div>
                         </div>
                     </li>
+                    {{-- Personal Data --}}
                     <li class="l-section section">
                         <div class="contact">
                             <div class="contact--lockup">
@@ -182,14 +199,16 @@
                             </div>
                         </div>
                     </li>
+                    {{-- Contact Form --}}
                     <li class="l-section section">
                         <div class="hire">
-                            <h2>You want us to do</h2>
-                            <!-- checkout formspree.io for easy form setup -->
-                            <form class="work-request">
+                            <h2>¿Qué tema deseas tratar conmigo?</h2>
+                            <form class="work-request" id="formContact">
                                 <div class="work-request--options">
+                                    {{-- Option Group One --}}
                                     <span class="options-a">
-                                        <input id="opt-1" type="checkbox" value="app design">
+                                        {{-- Option One --}}
+                                        <input id="opt-1" type="checkbox" value="cotizacion" re>
                                         <label for="opt-1">
                                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
@@ -201,9 +220,10 @@
                                                         d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z" />
                                                 </g>
                                             </svg>
-                                            App Design
+                                            Cotización
                                         </label>
-                                        <input id="opt-2" type="checkbox" value="graphic design">
+                                        {{-- Option Two --}}
+                                        <input id="opt-2" type="checkbox" value="asesoria">
                                         <label for="opt-2">
                                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
@@ -215,9 +235,10 @@
                                                         d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z" />
                                                 </g>
                                             </svg>
-                                            Graphic Design
+                                            Asesoría
                                         </label>
-                                        <input id="opt-3" type="checkbox" value="motion design">
+                                        {{-- Option Three --}}
+                                        <input id="opt-3" type="checkbox" value="capacitacion">
                                         <label for="opt-3">
                                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
@@ -229,11 +250,13 @@
                                                         d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z" />
                                                 </g>
                                             </svg>
-                                            Motion Design
+                                            Capacitación
                                         </label>
                                     </span>
+                                    {{-- Option Group Two --}}
                                     <span class="options-b">
-                                        <input id="opt-4" type="checkbox" value="ux design">
+                                        {{-- Option Four --}}
+                                        <input id="opt-4" type="checkbox" value="trabajo">
                                         <label for="opt-4">
                                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
@@ -245,9 +268,10 @@
                                                         d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z" />
                                                 </g>
                                             </svg>
-                                            UX Design
+                                            Oferta laboral
                                         </label>
-                                        <input id="opt-5" type="checkbox" value="webdesign">
+                                        {{-- Option Five --}}
+                                        <input id="opt-5" type="checkbox" value="sugerencia">
                                         <label for="opt-5">
                                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
@@ -259,9 +283,10 @@
                                                         d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z" />
                                                 </g>
                                             </svg>
-                                            Webdesign
+                                            Friendly Suggest
                                         </label>
-                                        <input id="opt-6" type="checkbox" value="marketing">
+                                        {{-- Option Six --}}
+                                        <input id="opt-6" type="checkbox" value="curso">
                                         <label for="opt-6">
                                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
@@ -273,21 +298,28 @@
                                                         d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z" />
                                                 </g>
                                             </svg>
-                                            Marketing
+                                            Cursos
                                         </label>
                                     </span>
                                 </div>
                                 <div class="work-request--information">
                                     <div class="information-name">
                                         <input id="name" type="text" spellcheck="false">
-                                        <label for="name">Name</label>
+                                        <label for="name">Nombre completo</label>
                                     </div>
                                     <div class="information-email">
                                         <input id="email" type="email" spellcheck="false">
                                         <label for="email">Email</label>
                                     </div>
+                                    <div class="information-phone">
+                                        <input id="phone" type="text" spellcheck="false">
+                                        <label for="phone">Teléfono</label>
+                                    </div>
+                                    <div class="button-clear">
+                                        <button type="button" id="clear">Limpiar</button>
+                                    </div>
                                 </div>
-                                <input type="submit" value="Send Request">
+                                <input type="submit" value="Enviar" id="send">
                             </form>
                         </div>
                     </li>
@@ -308,5 +340,6 @@
 <script>
     window.jQuery || document.write('<script src="{{ asset(' / js / vendor / jquery - 2.2 .4.min.js') }}"><\/script>')
 </script>
-<script src="{{ asset('/js/functions-min.js') }}"></script>
+<script src="{{ asset('js/functions-min.js') }}"></script>
+<script src="{{ asset('js/actions.js') }}"></script>
 @extends('partials/end')
