@@ -1,3 +1,4 @@
+/* All functions project */
 const functions = {
     dataForm: (e) => {
         e.preventDefault();
@@ -85,13 +86,68 @@ const functions = {
             })
     }
 }
-
+/* Showing Modals Functions */
+const showModals = {
+    showModal: (type) => {
+        const show = document.querySelector(`#${type}`);
+        show.style.display = "block";
+        let op = 0.1,
+            timer = setInterval(function () {
+                if (op >= 1) {
+                    clearInterval(timer);
+                }
+                show.style.opacity = op;
+                show.style.filter = 'alpha(opacity=' + op * 100 + ")";
+                op += op * 0.1;
+            }, 10);
+    },
+    hideModals: () => {
+        const personal = document.querySelector('#showModalPersonal'),
+            education = document.querySelector('#showModalEducation'),
+            job = document.querySelector('#showModalProfessional');
+        let op = 1,
+            timer = setInterval(function () {
+                if (op <= 0.1) {
+                    clearInterval(timer);
+                    personal.style.display = 'none';
+                    education.style.display = 'none';
+                    job.style.display = 'none';
+                }
+                personal.style.opacity = op;
+                education.style.opacity = op;
+                job.style.opacity = op;
+                personal.style.filter = 'alpha(opacity=' + op * 100 + ")";
+                education.style.filter = 'alpha(opacity=' + op * 100 + ")";
+                job.style.filter = 'alpha(opacity=' + op * 100 + ")";
+                op -= op * 0.1;
+            }, 50);
+    }
+}
+/* Events */
 const clear = document.querySelector("#clear"),
-    send = document.querySelector("#send");
-
+    send = document.querySelector("#send"),
+    personalModal = document.querySelector("#showModalPersonal"),
+    educationalModal = document.querySelector("#showModalEducation"),
+    jobModal = document.querySelector("#showModalProfessional"),
+    hideModal = document.querySelector("#hideModal");
+/* Show Modal in Personal Section */
+personalModal.addEventListener("click", () => {
+    showModals.showModal('modalPersonal')
+})
+educationalModal.addEventListener("click", () => {
+    showModals.showModal('modalEducation')
+})
+jobModal.addEventListener("click", () => {
+    showModals.showModal('modalProfessional')
+})
+hideModal.addEventListener("click", () => {
+    showModals.hideModals();
+})
+/* Clear and Send Form */
 clear.addEventListener("click", function (e) {
     functions.clearForm(e);
 })
 send.addEventListener("click", function (e) {
     functions.dataForm(e);
 })
+

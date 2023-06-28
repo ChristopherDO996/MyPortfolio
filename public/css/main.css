@@ -1074,6 +1074,13 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.contact button {
+  position: absolute;
+  right: 5%;
+  top: 15%;
+  font-size: 25px;
+  background: black;
+}
 .contact--lockup {
   position: relative;
   display: flex;

@@ -10,6 +10,8 @@
     <meta name="keywords" content="global, template, html, sass, jquery">
     <meta name="author" content="Bucky Maler">
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+    {{-- Font Awesome  --}}
+    <script src="https://kit.fontawesome.com/61ab49a963.js" crossorigin="anonymous"></script>
 </head>
 
 <body>

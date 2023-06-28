@@ -86,14 +86,21 @@
                             <div class="work--lockup">
                                 <ul class="slider">
                                     <li class="slider--item slider--item-left">
-                                        <a href="www.ponte-visual.com" target="_blank">
+                                        <a href="https://www.ponte-visual.com" target="_blank">
                                             <div class="slider--item-image">
                                                 <img src="{{ asset('/img/work-victory.jpg') }}" alt="Ponte Visual">
                                             </div>
                                             <p class="slider--item-title">Ponte Visual</p>
                                             <p class="slider--item-description">Agenda virtual de citas y portafolio
-                                                fotográfico con pasarela de pagos.<br>Tecnologías: PHP 8 (Laravel 10),
-                                                HTML 5, CSS (Bootstrap 5), Javascript (Vue JS), Git</p>
+                                                fotográfico con pasarela de pagos.</p>
+                                            <p class="slider--item-title">
+                                                <i class="fa-brands fa-bootstrap"></i>
+                                                <i class="fa-brands fa-js"></i>
+                                                <i class="fa-brands fa-vuejs"></i>
+                                                <i class="fa-brands fa-php"></i>
+                                                <i class="fa-brands fa-laravel"></i>
+                                                <i class="fa-brands fa-github"></i>
+                                            </p>
                                         </a>
                                     </li>
                                     <li class="slider--item slider--item-center">
@@ -103,8 +110,16 @@
                                             </div>
                                             <p class="slider--item-title">EPOEM 50</p>
                                             <p class="slider--item-description">Sistema educativo tipo Moodle a la
-                                                medida de la EPO 50<br>Tecnologías: PHP 7, HTML 5, CSS (Bootstrap 5),
-                                                Javascript (jQuery), Git (Github y Webhooks)</p>
+                                                medida de la EPO 50
+                                            </p>
+                                            <p class="slider--item-title">
+                                                <i class="fa-brands fa-bootstrap"></i>
+                                                <i class="fa-brands fa-js"></i>
+                                                <i class="fa-brands fa-php"></i>
+                                                <i class="fa-solid fa-database"></i>
+                                                <i class="fa-brands fa-github"></i>
+                                                <i class="fa-solid fa-webhook"></i>
+                                            </p>
                                         </a>
                                     </li>
                                     <li class="slider--item slider--item-right">
@@ -114,9 +129,34 @@
                                             </div>
                                             <p class="slider--item-title">Batas Yeah</p>
                                             <p class="slider--item-description">Tienda virtual con pasarelas de pagos,
-                                                gestión de inventarios y control de productos.<br>Tecnologías: PHP 8
-                                                (Laravel 10), HTML 5, CSS (Tailwind), Javascript (Vue JS), Git<br>App en
-                                                desarrollo con Flutter</p>
+                                                gestión de inventarios y control de productos.</p>
+                                            <p class="slider--item-title">
+                                                <i class="fa-brands fa-css3"></i>
+                                                <i class="fa-brands fa-js"></i>
+                                                <i class="fa-brands fa-vuejs"></i>
+                                                <i class="fa-brands fa-php"></i>
+                                                <i class="fa-brands fa-laravel"></i>
+                                                <i class="fa-brands fa-github"></i>
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="slider--item slider--item-right">
+                                        <a href="www.batasyea.com" target="_blank">
+                                            <div class="slider--item-image">
+                                                <img src="{{ asset('/img/work-alex-nowak.jpg') }}" alt="BCB">
+                                            </div>
+                                            <p class="slider--item-title">Burger Club Brothers</p>
+                                            <p class="slider--item-description">
+                                                Web de restaurante, CRM y PWA</p>
+                                            <p class="slider--item-title">
+                                                <i class="fa-brands fa-css3"></i>
+                                                <i class="fa-brands fa-js"></i>
+                                                <i class="fa-brands fa-angular"></i>
+                                                <i class="fa-brands fa-php"></i>
+                                                <i class="fa-brands fa-laravel"></i>
+                                                <i class="fa-brands fa-github"></i>
+                                                <i class="fa-regular fa-laptop-mobile"></i>
+                                            </p>
                                         </a>
                                     </li>
                                 </ul>
@@ -151,8 +191,8 @@
                     <li class="l-section section">
                         <div class="about">
                             <div class="about--banner">
-                                <h2>We<br>believe in<br>passionate<br>people</h2>
-                                <a href="#0">Career
+                                <h2>"Si se puede <br>imaginar,<br>se puede <br>programar"</h2>
+                                {{-- <a href="#0">Career
                                     <span>
                                         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -164,19 +204,71 @@
                                             </g>
                                         </svg>
                                     </span>
-                                </a>
+                                </a> --}}
                                 <img src="{{ asset('/img/about-visual.png') }}" alt="about Us">
                             </div>
                             <div class="about--options">
-                                <a href="#0">
-                                    <h3>Winners</h3>
+                                <a href="#0" id="showModalPersonal">
+                                    <h3>Personal</h3>
                                 </a>
-                                <a href="#0">
-                                    <h3>Philosophy</h3>
+                                <a href="#0" id="showModalEducation">
+                                    <h3>Educación</h3>
                                 </a>
-                                <a href="#0">
-                                    <h3>History</h3>
+                                <a href="#0" id="showModalProfessional">
+                                    <h3>Laboral</h3>
                                 </a>
+                                {{-- Modal Personal --}}
+                                <div class="contact" id="modalPersonal" style="display: none">
+                                    <button id="hideModal">X</button>
+                                    <div class="contact--lockup">
+                                        <div class="modal">
+                                            <div class="modal--information">
+                                                <p>Pawia 5, 31-154 Kraków, Poland</p>
+                                                <a href="mailto:ouremail@gmail.com">ouremail@gmail.com</a>
+                                                <a href="tel:+148126287560">+48 12 628 75 60</a>
+                                            </div>
+                                            <ul class="modal--options">
+                                                <li><a href="#0">Bēhance</a></li>
+                                                <li><a href="#0">dribbble</a></li>
+                                                <li><a href="mailto:ouremail@gmail.com">Envíame un correo</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                {{-- Modal Educación --}}
+                                <div class="contact" id="modalEducation" style="display: none">
+                                    <div class="contact--lockup">
+                                        <div class="modal">
+                                            <div class="modal--information">
+                                                <p>Pawia 5, 31-154 Kraków, Poland</p>
+                                                <a href="mailto:ouremail@gmail.com">ouremail@gmail.com</a>
+                                                <a href="tel:+148126287560">+48 12 628 75 60</a>
+                                            </div>
+                                            <ul class="modal--options">
+                                                <li><a href="#0">Bēhance</a></li>
+                                                <li><a href="#0">dribbble</a></li>
+                                                <li><a href="mailto:ouremail@gmail.com">Envíame un correo</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                {{-- Modal Laboral --}}
+                                <div class="contact" id="modalProfessional" style="display: none">
+                                    <div class="contact--lockup">
+                                        <div class="modal">
+                                            <div class="modal--information">
+                                                <p>Pawia 5, 31-154 Kraków, Poland</p>
+                                                <a href="mailto:ouremail@gmail.com">ouremail@gmail.com</a>
+                                                <a href="tel:+148126287560">+48 12 628 75 60</a>
+                                            </div>
+                                            <ul class="modal--options">
+                                                <li><a href="#0">Bēhance</a></li>
+                                                <li><a href="#0">dribbble</a></li>
+                                                <li><a href="mailto:ouremail@gmail.com">Envíame un correo</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </li>
