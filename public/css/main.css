@@ -538,6 +538,9 @@ body {
 .side-nav li:nth-child(5)::before {
   content: "05";
 }
+.side-nav li:nth-child(6)::before {
+  content: "06";
+}
 .side-nav li.is-active {
   color: #0f33ff;
   transition: color 0.4s ease-in-out;
@@ -641,7 +644,7 @@ body {
 .intro--options > a {
   max-width: 250px;
   text-decoration: none;
-  color: #282828;
+  color: #fff;
   transition: color 0.2s ease-in-out;
 }
 .intro--options > a:hover {
@@ -653,6 +656,10 @@ body {
 }
 .intro--options p {
   margin-bottom: 0;
+}
+.intro--abilities {
+  padding: 5px;
+  text-align: center;
 }
 
 @media (max-width: 900px) {
@@ -943,6 +950,14 @@ body {
   height: 10px;
   background-color: #0f33ff;
 }
+.about--banner h3 {
+  width: 50%;
+  position: relative;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1;
+  z-index: 1;
+}
 .about--banner a {
   padding: 5px 17px 5px 0;
   text-decoration: none;
@@ -963,13 +978,16 @@ body {
 }
 .about--banner img {
   position: absolute;
-  bottom: -90px;
-  right: -12px;
+  top: 0;
+  right: 0;
+  filter: brightness(50%);
+  max-height: 110%;
+  border-radius: 50%;
 }
 .about--options {
   display: flex;
   max-width: 600px;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -1004,6 +1022,67 @@ body {
   font-size: 16px;
   text-transform: uppercase;
   transition: bottom 0.2s ease-in-out, left 0.2s ease-in-out;
+}
+.about--options--modal-window {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.25);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+.about--options--modal-window:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+.about--options--modal-window > div {
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2em;
+  background: white;
+}
+.about--options--modal-window header {
+  font-weight: bold;
+}
+.about--options--modal-window h1 {
+  font-size: 150%;
+  margin: 0 0 15px;
+}
+.about--options .modal-close {
+  color: #aaa;
+  line-height: 50px;
+  font-size: 80%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+}
+.about--options .modal-close:hover {
+  color: black;
+}
+.about--options .modal-window div {
+  border-radius: 1rem;
+}
+.about--options .modal-window div:not(:last-of-type) {
+  margin-bottom: 15px;
+}
+.about--options .logo {
+  max-width: 150px;
+  display: block;
+}
+.about--options small {
+  color: lightgray;
 }
 
 @media (max-width: 767px) {

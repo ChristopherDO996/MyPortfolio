@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
     {{-- Font Awesome  --}}
     <script src="https://kit.fontawesome.com/61ab49a963.js" crossorigin="anonymous"></script>
+    {{-- Animate CSS --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
