@@ -123,16 +123,112 @@
                                                     X
                                                 </a>
                                             </div>
-                                            <div class="modal--information">
-                                                <p>Pawia 5, 31-154 Kraków, Poland</p>
-                                                <a href="mailto:ouremail@gmail.com">ouremail@gmail.com</a>
-                                                <a href="tel:+148126287560">+48 12 628 75 60</a>
+                                            <div class="modal--information"
+                                                style="display: flex; justify-content: center">
+                                                <div class="profile-card">
+                                                    <div class="profile-cover">
+                                                        <div class="menu-container">
+                                                            <a class="list-icon" title="Expand"
+                                                                href="javascript:void(0);"></a>
+                                                            <ul class="profile-actions" style="display: none;">
+                                                                <li>
+                                                                    <a href="https://www.facebook.com/psychoenemyamott"
+                                                                        target="_blank">
+                                                                        Facebook
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="https://www.instagram.com/christopherdo_"
+                                                                        target="_blank">
+                                                                        Instagram
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="https://www.linkedin.com/in/christopher-diaz-osorio-741483126/"
+                                                                        target="_blank">
+                                                                        LinkedIn
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="https://github.com/ChristopherDO996"
+                                                                        target="_blank">
+                                                                        Github
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="profile-avatar">
+                                                            <div class="btns-container">
+                                                                <div class="profile-links">
+                                                                    <a class="read-more" href="#">
+                                                                        <img
+                                                                            src="https://dl.dropboxusercontent.com/s/62dfoo9h44o58lw/more.png">
+                                                                    </a>
+                                                                    <a class="view-map" href="#">
+                                                                        <img
+                                                                            src="https://dl.dropboxusercontent.com/s/9ofmihok0h64lvn/location.png">
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <a href="{{ asset('docs/CV-ESP.pdf') }}"
+                                                                download="cv_cdo_esp.pdf">
+                                                                <img src="{{ asset('img/personal.jpg') }}"
+                                                                    alt="Christopher DO" />
+                                                            </a>
+                                                        </div>
+                                                        <div class="profile-details">
+                                                            <h1>Christopher D.O.</h1>
+                                                            <h6>Desarrollador Web Full Stack Semi Sr</h6>
+                                                        </div>
+                                                    </div>
+                                                    <div class="profile-info" style="display: none;">
+                                                        <h1>¿Quién soy?</h1>
+                                                        <div class="info-area">
+                                                            Hola! Bienvenido a mi sitio web, mi nombre es Christopher
+                                                            Díaz y soy un desarrollador web con cuatro años de
+                                                            experiencia a nivel profesional. Me especializo en la
+                                                            creación de sitios web altamente eficientes y la continuidad
+                                                            de proyectos ya existentes. Pero ¡Hey! También no soy sólo
+                                                            un desarrollador, también soy hamburguesero y parrillero,
+                                                            además de un amante de la música y entusiasta bailador.
+                                                            Te invito a que me conozcas y con gusto te puedo atender
+                                                            mediante mi formulario de contacto.
+                                                        </div>
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                    <div class="profile-map" style="display: none;">
+                                                        <iframe width="100%" height="150" frameborder="0"
+                                                            scrolling="no" marginheight="0" marginwidth="0"
+                                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d240864.19466148422!2d-99.30842579338243!3d19.390659363204488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0026db097507%3A0x54061076265ee841!2sCiudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses!2smx!4v1688263555379!5m2!1ses!2smx"></iframe>
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                    <div class="profile-content">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="digits">4</div>
+                                                                Años de experiencia
+                                                            </li>
+                                                            <li>
+                                                                <div class="digits">8</div>
+                                                                Proyectos realizados desde cero
+                                                            </li>
+                                                            <li>
+                                                                <div class="digits">3</div>
+                                                                Proyectos con reingeniería
+                                                            </li>
+                                                            <li>
+                                                                <div class="digits">21</div>
+                                                                Proyectos continuados
+                                                            </li>
+                                                            <li>
+                                                                <div class="digits">27</div>
+                                                                Años de edad
+                                                            </li>
+                                                        </ul>
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <ul class="modal--options">
-                                                <li><a href="#0">Bēhance</a></li>
-                                                <li><a href="#0">dribbble</a></li>
-                                                <li><a href="mailto:ouremail@gmail.com">Envíame un correo</a></li>
-                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -243,15 +339,13 @@
                                                 </a>
                                             </div>
                                             <div class="modal--information">
-                                                <p>Pawia 5, 31-154 Kraków, Poland</p>
-                                                <a href="mailto:ouremail@gmail.com">ouremail@gmail.com</a>
-                                                <a href="tel:+148126287560">+48 12 628 75 60</a>
+                                                <div class="title_modal">
+                                                    <h3>
+                                                        Estas son mis habilidades
+                                                    </h3>
+                                                </div>
+                                                <div id="abilitiesCircles" style="overflow-y:hidden"></div>
                                             </div>
-                                            <ul class="modal--options">
-                                                <li><a href="#0">Bēhance</a></li>
-                                                <li><a href="#0">dribbble</a></li>
-                                                <li><a href="mailto:ouremail@gmail.com">Envíame un correo</a></li>
-                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -528,9 +622,10 @@
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script>
-    window.jQuery || document.write('<script src="{{ asset(' / js / vendor / jquery - 2.2 .4.min.js') }}"><\/script>')
-</script>
+{{-- D3 JS --}}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.14/d3.js"></script>
 <script src="{{ asset('js/functions-min.js') }}"></script>
 <script src="{{ asset('js/actions.js') }}"></script>
+<script src="{{ asset('js/personal.js') }}"></script>
+<script src="{{ asset('js/abilities.js') }}"></script>
 @extends('partials/end')

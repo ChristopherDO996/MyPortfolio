@@ -1581,6 +1581,10 @@ body {
 }
 .mainModal--lockup .modal--information {
   padding-bottom: 30px;
+  /* Profile Card */
+  /* End Profile Card */
+  /* Timeline */
+  /* End Timeline */
 }
 .mainModal--lockup .modal--information .title_modal {
   position: relative;
@@ -1592,6 +1596,234 @@ body {
   font-weight: bold;
   color: #fff;
   margin-bottom: 5%;
+}
+.mainModal--lockup .modal--information .profile-card {
+  width: 90%;
+  margin: 0;
+  font: 12px "Myriad Pro";
+}
+.mainModal--lockup .modal--information .profile-card .profile-cover {
+  background: url("https://images.pexels.com/photos/11535275/pexels-photo-11535275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center;
+  position: relative;
+  height: 260px;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  filter: url(filters.svg#grayscale);
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.mainModal--lockup .modal--information .profile-card .profile-cover:hover {
+  filter: none;
+  filter: none;
+  -webkit-filter: none;
+}
+.mainModal--lockup .modal--information .profile-card .profile-cover .menu-container {
+  position: relative;
+  margin: 10px 0 0 10px;
+  float: left;
+}
+.mainModal--lockup .modal--information .profile-card .profile-cover .menu-container .list-icon {
+  background: url("https://dl.dropboxusercontent.com/s/zgj5vdngzkemvpe/list-icon.png") no-repeat;
+  height: 18px;
+  width: 24px;
+  display: block;
+  opacity: 0.5;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.mainModal--lockup .modal--information .profile-card .profile-cover .menu-container .list-icon:active, .mainModal--lockup .modal--information .profile-card .profile-cover .menu-container .list-icon:hover {
+  opacity: 1;
+}
+.mainModal--lockup .modal--information .profile-card .profile-cover .menu-container .profile-actions {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  z-index: 1;
+}
+.mainModal--lockup .modal--information .profile-card .profile-cover .menu-container .profile-actions li {
+  border-bottom: 1px solid #000000;
+}
+.mainModal--lockup .modal--information .profile-card .profile-cover .menu-container .profile-actions li:first-child a {
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.mainModal--lockup .modal--information .profile-card .profile-cover .menu-container .profile-actions li:last-child a {
+  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.mainModal--lockup .modal--information .profile-card .profile-cover .menu-container .profile-actions li:last-child {
+  border-bottom: none;
+}
+.mainModal--lockup .modal--information .profile-card .profile-cover .menu-container .profile-actions li a {
+  display: block;
+  width: 100px;
+  padding: 5px;
+  color: #ffffff;
+  text-decoration: none;
+  font: 10px Arial;
+}
+.mainModal--lockup .modal--information .profile-card .profile-cover .menu-container .profile-actions li a:hover {
+  background: rgba(221, 221, 221, 0.2);
+}
+.mainModal--lockup .modal--information .profile-card .profile-cover .profile-avatar {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border: 5px solid #ffffff;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  margin: 25px auto 0;
+  overflow: hidden;
+  left: 0;
+  right: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.mainModal--lockup .modal--information .profile-card .profile-cover .profile-avatar a {
+  margin: 0;
+}
+.mainModal--lockup .modal--information .profile-card .profile-cover .profile-avatar a img {
+  width: 100%;
+  filter: grayscale(1);
+  transition-property: filter;
+  transition-duration: 1s;
+}
+.mainModal--lockup .modal--information .profile-card .profile-cover .profile-avatar:hover {
+  margin-top: 23px;
+}
+.mainModal--lockup .modal--information .profile-card .profile-cover .profile-avatar .btns-container {
+  position: relative;
+}
+.mainModal--lockup .modal--information .profile-card .profile-cover .profile-avatar .btns-container .profile-links {
+  position: absolute;
+  top: 110px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  display: none;
+  z-index: 1;
+}
+.mainModal--lockup .modal--information .profile-card .profile-cover .profile-avatar .btns-container .profile-links .zoom-avatar {
+  background: rgba(103, 186, 144, 0.7) !important;
+}
+.mainModal--lockup .modal--information .profile-card .profile-cover .profile-avatar .btns-container .profile-links .zoom-avatar:hover {
+  background: rgb(103, 186, 144);
+}
+.mainModal--lockup .modal--information .profile-card .profile-cover .profile-avatar .btns-container .profile-links .read-more {
+  background: rgba(231, 76, 60, 0.7);
+}
+.mainModal--lockup .modal--information .profile-card .profile-cover .profile-avatar .btns-container .profile-links .read-more:hover {
+  background: rgb(231, 76, 60);
+}
+.mainModal--lockup .modal--information .profile-card .profile-cover .profile-avatar .btns-container .profile-links .view-map {
+  background: rgba(157, 177, 218, 0.7);
+}
+.mainModal--lockup .modal--information .profile-card .profile-cover .profile-avatar .btns-container .profile-links .view-map:hover {
+  background: rgb(157, 177, 218);
+}
+.mainModal--lockup .modal--information .profile-card .profile-cover .profile-avatar .btns-container .profile-links a {
+  display: inline-block;
+  background: #ffffff;
+  text-decoration: none;
+  padding: 5px;
+}
+.mainModal--lockup .modal--information .profile-card .profile-cover .profile-avatar .btns-container .profile-links a img {
+  display: block;
+}
+.mainModal--lockup .modal--information .profile-card .profile-cover .profile-details {
+  background: rgba(0, 0, 0, 0.4);
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-weight: bold;
+  padding: 0;
+}
+.mainModal--lockup .modal--information .profile-card .profile-cover .profile-details h1 {
+  margin-top: 4px;
+}
+.mainModal--lockup .modal--information .profile-card .profile-cover .profile-details h6 {
+  font-size: 12px;
+  font-weight: normal;
+  margin: 22px 0 22px 0;
+}
+.mainModal--lockup .modal--information .profile-card .profile-info {
+  color: #ffffff;
+  font-family: Arial;
+  text-align: justify;
+}
+.mainModal--lockup .modal--information .profile-card .profile-info h1 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding-bottom: 3px;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+.mainModal--lockup .modal--information .profile-card .profile-info .info-area {
+  padding: 0 10px 5px;
+}
+.mainModal--lockup .modal--information .profile-card .profile-info .clear {
+  clear: both;
+}
+.mainModal--lockup .modal--information .profile-card .profile-map {
+  border-top: 1px solid #cccccc;
+  float: left;
+  width: 100%;
+}
+.mainModal--lockup .modal--information .profile-card .profile-content {
+  border: 1px solid #cccccc;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.mainModal--lockup .modal--information .profile-card .profile-content ul {
+  padding: 0;
+  margin: 0;
+}
+.mainModal--lockup .modal--information .profile-card .profile-content ul li {
+  float: left;
+  padding: 10px 0;
+  text-align: center;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #ffffff;
+  width: 19%;
+}
+.mainModal--lockup .modal--information .profile-card .profile-content ul li:first-child {
+  border-left: none;
+}
+.mainModal--lockup .modal--information .profile-card .profile-content ul li:last-child {
+  border-right: none;
+}
+.mainModal--lockup .modal--information .profile-card .profile-content ul li .digits {
+  font-weight: bold;
+  font-size: 16px;
 }
 .mainModal--lockup .modal--information ol {
   position: relative;
