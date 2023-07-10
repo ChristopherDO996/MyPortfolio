@@ -1,14 +1,4 @@
 @extends('partials/top')
-<!-- notification for small viewports and landscape oriented smartphones -->
-<div class="device-notification">
-    <a class="device-notification--logo" href="#0">
-        <img src="{{ asset('/img/logo.png') }}" alt="Global">
-        <p>Christopher DO</p>
-    </a>
-    <p class="device-notification--message">Global has so much to offer that we must request you orient your device to
-        portrait or find a larger screen. You won't be disappointed.</p>
-</div>
-
 <div class="perspective effect-rotate-left">
     <div class="container">
         <div class="outer-nav--return"></div>
@@ -305,15 +295,23 @@
                                                 </a>
                                             </div>
                                             <div class="modal--information">
-                                                <p>Pawia 5, 31-154 Kraków, Poland</p>
-                                                <a href="mailto:ouremail@gmail.com">ouremail@gmail.com</a>
-                                                <a href="tel:+148126287560">+48 12 628 75 60</a>
+                                                <div id="container">
+                                                    <div id="welcome">
+                                                        <p id="firstSentence">Bienvenido a mi <span
+                                                                id="universe">universo</span>
+                                                        </p>
+                                                        <p id="lastSentence">
+                                                            Esta es una animación simple, da click en el <span
+                                                                id="sun">sol</span> para comenzar
+                                                        </p>
+                                                    </div>
+                                                    <div id="content">
+                                                        <h2 id="contentTitle"></h2>
+                                                        <p id="subtitle"></p>
+                                                        <p id="description"></p>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <ul class="modal--options">
-                                                <li><a href="#0">Bēhance</a></li>
-                                                <li><a href="#0">dribbble</a></li>
-                                                <li><a href="mailto:ouremail@gmail.com">Envíame un correo</a></li>
-                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -458,6 +456,7 @@
                         <div class="hire">
                             <h2>¿Qué tema deseas tratar conmigo?</h2>
                             <form class="work-request" id="formContact">
+                                @csrf
                                 <div class="work-request--options">
                                     {{-- Option Group One --}}
                                     <span class="options-a">
@@ -610,11 +609,4 @@
     </ul>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-{{-- D3 JS --}}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.14/d3.js"></script>
-<script src="{{ asset('js/functions-min.js') }}"></script>
-<script src="{{ asset('js/actions.js') }}"></script>
-<script src="{{ asset('js/personal.js') }}"></script>
-<script src="{{ asset('js/abilities.js') }}"></script>
 @extends('partials/end')

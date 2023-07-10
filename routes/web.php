@@ -1,7 +1,8 @@
 <?php
+namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Controller;
+use App\Http\Controllers\BlogController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,4 +21,9 @@ Route::get('/', function () {
 /* Form */
 Route::prefix('home')->group(function () {
     Route::post('sendData', 'formController@send')->name('sendData');
+});
+
+/* Blog */
+Route::prefix('blog')->group(function () {
+    Route::get('login', [BlogController::class, 'login']);
 });

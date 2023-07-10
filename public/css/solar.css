@@ -1,0 +1,75 @@
+#content {
+  position: absolute;
+}
+body #container {
+  overflow-y: hidden;
+}
+body #container #welcome {
+  color: white;
+  position: absolute;
+  top: 20%;
+}
+body #container #welcome #lastSentence {
+  font-weight: 200;
+  font-size: 13pt;
+}
+body #container #welcome #firstSentence {
+  font-weight: 500;
+  font-size: 22pt;
+}
+body #container #welcome #universe {
+  text-transform: uppercase;
+  font-family: 'Raleway';
+  font-weight: 800;
+}
+body #container #content {
+  top: 50%;
+}
+body #container #content h2 {
+  margin: 0;
+}
+body #container #content span {
+  font-family: Raleway;
+  font-weight: 600;
+}
+body #container #content #contentTitle {
+  font-weight: 200;
+  letter-spacing: 1.5px;
+  font-size: 20pt;
+}
+body #container #content #contentTitle span {
+  color: #190688;
+}
+body #container #content #contentTitle div {
+  font-size: 12pt;
+  display: inline-block;
+}
+body #container #content #subtitle {
+  letter-spacing: 1.5px;
+  margin: 0;
+  font-size: 16pt;
+  font-family: Raleway;
+  font-weight: 200;
+  color: white;
+}
+body #container #content #description {
+  color: white;
+  letter-spacing: 1.5px;
+  font-weight: 200;
+}
+body #container #content #description span {
+  color: #F66120;
+}
+body #container #content #description div {
+  color: #acacac;
+  font-size: 10pt;
+}
+body #container #content #description a {
+  color: white;
+  line-height: 10px;
+  transition: 0.3s;
+}
+body #container #content #description a:hover {
+  line-height: 11px;
+  font-weight: 500;
+}
