@@ -10,12 +10,12 @@
     <meta name="keywords" content="global, template, html, sass, jquery">
     <meta name="author" content="Bucky Maler">
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+    {{-- Job Css --}}
+    <link rel="stylesheet" href="{{ asset('css/job.css') }}">
     {{-- Font Awesome  --}}
     <script src="https://kit.fontawesome.com/61ab49a963.js" crossorigin="anonymous"></script>
     {{-- Animate CSS --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    {{-- Solar System Css --}}
-    <link rel="stylesheet" href="{{ asset('css/solar.css') }}">
 </head>
 
 <body>

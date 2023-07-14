@@ -295,22 +295,112 @@
                                                 </a>
                                             </div>
                                             <div class="modal--information">
-                                                <div id="container">
-                                                    <div id="welcome">
-                                                        <p id="firstSentence">Bienvenido a mi <span
-                                                                id="universe">universo</span>
-                                                        </p>
-                                                        <p id="lastSentence">
-                                                            Esta es una animación simple, da click en el <span
-                                                                id="sun">sol</span> para comenzar
-                                                        </p>
+                                                {{-- Timeline --}}
+                                                <section id="timeline">
+                                                    <div class="tl-item">
+                                                        <div class="tl-bg"
+                                                            style="background-image: url(https://placeimg.com/801/801/nature)">
+                                                        </div>
+
+                                                        <div class="tl-year">
+                                                            <p class="f2 heading--sanSerif">Feb/2019 - Jun/2020</p>
+                                                        </div>
+
+                                                        <div class="tl-content">
+                                                            <h1>
+                                                                <a href="https://virket.com/" target="_blank">
+                                                                    Virket
+                                                                </a>
+                                                            </h1>
+                                                            <p>Diseño de sitios web estáticos con buenos estándares de
+                                                                rendimiento adaptados a las necesidades de los clientes.
+                                                            </p>
+                                                            <p>
+                                                                <i>HTML5, CSS, Wordpress</i>
+                                                            </p>
+                                                        </div>
                                                     </div>
-                                                    <div id="content">
-                                                        <h2 id="contentTitle"></h2>
-                                                        <p id="subtitle"></p>
-                                                        <p id="description"></p>
+
+                                                    <div class="tl-item">
+                                                        <div class="tl-bg"
+                                                            style="background-image: url(https://placeimg.com/802/802/nature)">
+                                                        </div>
+
+                                                        <div class="tl-year">
+                                                            <p class="f2 heading--sanSerif">May/2020 - Actualidad</p>
+                                                        </div>
+
+                                                        <div class="tl-content">
+                                                            <h1>
+                                                                <a href="https://epoem50.edu.mx/" target="_blank">
+                                                                    EPOEM 50
+                                                                </a>
+                                                            </h1>
+                                                            <p>Desarrollo desde cero de plataforma educativa que, a la
+                                                                fecha, continúa en operación con muchos más módulos.
+                                                            </p>
+                                                            <p>
+                                                                <i>HTML5, CSS (Bootstrap 4), JS (jQuery y librerías),
+                                                                    PHP y API's, Git (Github y Webhooks) y MySQL</i>
+                                                            </p>
+                                                        </div>
                                                     </div>
-                                                </div>
+
+                                                    <div class="tl-item">
+                                                        <div class="tl-bg"
+                                                            style="background-image: url(https://placeimg.com/803/803/nature)">
+                                                        </div>
+
+                                                        <div class="tl-year">
+                                                            <p class="f2 heading--sanSerif">Jun/2021 - May/2022</p>
+                                                        </div>
+
+                                                        <div class="tl-content">
+                                                            <h1>
+                                                                <a href="http://servykt.homeip.net:8083/wykt/externo/index.html"
+                                                                    target="_blank">
+                                                                    Colegio Albert Einstein YKT
+                                                                </a>
+                                                            </h1>
+                                                            <p>Seguimiento a desarrollos, refactorización y creación de
+                                                                plataformas para control interno del colegio.</p>
+                                                            <p>
+                                                                <i>HTML5, CSS (Bootstrap 4), JS (jQuery y librerías),
+                                                                    PHP
+                                                                    (Laravel 7 y API's|APIRest), GIT y MySQL</i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="tl-item">
+                                                        <div class="tl-bg"
+                                                            style="background-image: url(https://placeimg.com/800/800/nature)">
+                                                        </div>
+
+                                                        <div class="tl-year">
+                                                            <p class="f2 heading--sanSerif">May/2022 - Actualidad</p>
+                                                        </div>
+
+                                                        <div class="tl-content">
+                                                            <h1>
+                                                                <a href="https://www.mck.agency/" target="_blank">
+                                                                    MCK Agency
+                                                                </a>
+                                                            </h1>
+                                                            <p>Creación de proyectos a gran escala, refactorización y
+                                                                seguimiento a desarrollos en diferentes tecnologías</p>
+                                                            <p>
+                                                                <i>HTML5, CSS (Bootstrap 4 y 5, Tailwind 3, Less y
+                                                                    SCSS),
+                                                                    JS (Node JS, Vue JS, Vanilla y librerías), PHP
+                                                                    (Laravel 7, API's|APIRest, Web Scrapping, Yii 2 y
+                                                                    CodeIgniter), GIT, MySQL, Google Cloud Platform y
+                                                                    SaaS, Linux y servidores.</i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                                {{-- End Timeline --}}
                                             </div>
                                         </div>
                                     </div>
