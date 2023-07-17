@@ -32,10 +32,16 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  height: 100%;
+  overflow: hidden;
+  touch-action: none;
 }
 
 body {
+  height: 100%;
+  overflow: hidden;
   margin: 0;
+  touch-action: none;
 }
 
 article,
@@ -327,6 +333,13 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
+  overflow: 100%;
+  touch-action: none;
+}
+.l-main-content .main-content {
+  height: 100%;
+  overflow: hidden;
+  touch-action: none;
 }
 
 .l-section {
