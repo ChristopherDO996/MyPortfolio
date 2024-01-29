@@ -29,7 +29,7 @@ $(".action").on("click", function () {
 });
 
 $('.title').each(function () {
-    $(this).html("Earth".replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+    $(this).html("epoem 50".replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
 });
 
 
@@ -242,4 +242,4 @@ function closemodal() {
 }
 
 var photo_planet = ["https://i.kinja-img.com/gawker-media/image/upload/s--gBFsZfZv--/c_scale,fl_progressive,q_80,w_800/18mozgxwgu2ibjpg.jpg", "https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg", "https://www.pngplay.com/wp-content/uploads/13/Jupiter-PNG-Pic-Background.png", "https://www.nobbot.com/wp-content/uploads/2022/01/saturno-portada-1024x815.jpg"];
-var planet = ["earth", "mars", "jupiter", "saturn"];
+var planet = ["epoem 50", "prime capital mx", "manor", "burger club brothers"];

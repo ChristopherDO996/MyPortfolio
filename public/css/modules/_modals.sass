@@ -24,7 +24,7 @@ $inactive: #AEB6BF
 
     &--lockup
         position: relative
-        width: 50%
+        width: 65%
         height: auto
         margin: 0 auto
 
@@ -49,7 +49,6 @@ $inactive: #AEB6BF
                     text-decoration: none
 
             &--information
-                padding-bottom: 30px
 
                 .title_modal
                     position: relative
@@ -337,17 +336,63 @@ $inactive: #AEB6BF
                         color: $white
                         font-style: italic
 
-                    .point
-                        content: ""
-                        top: -4px
-                        left: 43%
+                    .loader
+                        width: 20px
+                        height: 20px
+                        border-radius: 50%
                         display: block
-                        width: 6px
-                        height: 6px
-                        border: 4px solid #31708F
-                        border-radius: 10px
-                        background: #fff
-                        position: absolute
+                        position: relative
+                        top: -8px
+                        left: 40%
+                        vertical-align: middle
+                        animation: 1s infinite ease-in-out
+
+                        &::before
+                            animation: 1s infinite ease-in-out
+                            content: ''
+                            border: 2px solid #31708f8c
+                            top: -3px
+                            left: -3px
+                            opacity: 0
+                            animation-name: loader2-1
+                            width: 100%
+                            height: 100%
+                            border-radius: 50%
+                            position: absolute
+
+                            @keyframes loader2-1
+                                0%
+                                    transform: scale(1)
+                                    opacity: 1
+
+                                50%
+                                    transform: scale(1.3)
+                                    opacity: 0
+
+                                100%
+                                    transform: scale(1.3)
+                                    opacity: 0
+                        &::after
+                            animation: 1s infinite ease-in-out
+                            content: ''
+                            background-color: #31708F
+                            animation-name: loader2-2
+                            width: 90%
+                            height: 90%
+                            border-radius: 50%
+                            position: absolute
+                            top: 0
+                            left: 0
+
+                            @keyframes loader2-2
+                                0%
+                                    transform: scale(1)
+
+                                50%
+                                    transform: scale(0.7)
+
+                                100%
+                                    transform: scale(1)
 
                     .description
                         display: none

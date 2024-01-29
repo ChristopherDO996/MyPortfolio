@@ -18,7 +18,7 @@
                     <ul class="side-nav">
                         <li class="is-active"><span>Inicio</span></li>
                         <li><span>Sobre mí</span></li>
-                        <li><span>Habilidades</span></li>
+                        <li><span>Experiencia</span></li>
                         <li><span>Proyectos</span></li>
                         <li><span>Contáctame</span></li>
                         {{-- <li><span>Blog</span></li> --}}
@@ -35,12 +35,11 @@
                                 position: absolute;
                                 z-index: -1;"
                                     autoplay muted loop playsinline></video>
-                                <h1>Full Stack<br>Developer<br>Middle</h1>
+                                <h1>Senior<br>Full Stack<br>Developer</h1>
                                 <button class="cta animate__animated animate__jello">Contáctame
                                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                        viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;"
-                                        xml:space="preserve">
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118"
+                                        style="enable-background:new 0 0 150 118;" xml:space="preserve">
                                         <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
                                             <path
                                                 d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z" />
@@ -54,21 +53,21 @@
                             <div class="intro--options">
                                 {{-- First ability --}}
                                 <div class="intro--abilities animate__animated animate__lightSpeedInLeft">
-                                    <h3>Diseño, desarrollo y administración de BD</h3>
-                                    <p>He diseñado, construido y gestionado bases de datos relacionales desde hace más
-                                        de <strong>3 años.</strong></p>
+                                    <h3>Bases de Datos</h3>
+                                    <p>Diseño, construcción y gestión con más de <strong>4 años</strong> de experiencia.
+                                    </p>
                                 </div>
                                 {{-- Second ability --}}
                                 <div class="intro--abilities animate__animated animate__fadeInDownBig">
-                                    <h3>Diseño Front end e implementación back end</h3>
-                                    <p>He diseñado sitios estáticos y dinámicos a la medida, así como construido el
-                                        procesamiento a través del back end desde hace más de <strong>3 años.</strong>
+                                    <h3>Desarrollo Fullstack</h3>
+                                    <p>He diseñado sitios estáticos y dinámicos a la medida, me respaldan <strong>4
+                                            años</strong> de experiencia y un amplio portafolio de proyectos.
                                     </p>
                                 </div>
                                 {{-- Third ability --}}
                                 <div class="intro--abilities animate__animated animate__lightSpeedInRight">
                                     <h3>Asesoría y acompañamiento</h3>
-                                    <p>He sido partícipe de grandes proyectos desde el simple asesoramiento a clientes
+                                    <p>He participado en grandes proyectos asesorando a clientes
                                         diversos para asegurar un entregable de calidad y que cumpla con sus
                                         expectativas.</p>
                                 </div>
@@ -79,9 +78,9 @@
                     <li class="l-section section">
                         <div class="about">
                             <div class="about--banner">
-                                <h3>"Nunca confíes en una computadora que, no puedas tirar por la ventana"</h3>
+                                <h3>"Nunca confíes en un ordenador que no puedas tirar por la ventana"</h3>
                                 <a href="https://twitter.com/devacademyla/status/630853710852280324"
-                                    target="_blank">Steve Wozniak
+                                    target="_blank"><i>Steve Wozniak</i>
                                     <span>
                                         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -168,7 +167,7 @@
                                                         </div>
                                                         <div class="profile-details">
                                                             <h1>Christopher D.O.</h1>
-                                                            <h6>Desarrollador Web Full Stack Semi Sr</h6>
+                                                            <h6>Desarrollador Web Full Stack SR</h6>
                                                         </div>
                                                     </div>
                                                     <div class="profile-info" style="display: none;">
@@ -207,7 +206,7 @@
                                                                 Proyectos con reingeniería
                                                             </li>
                                                             <li>
-                                                                <div class="digits">21</div>
+                                                                <div class="digits">+30</div>
                                                                 Proyectos continuados
                                                             </li>
                                                             <li>
@@ -239,21 +238,21 @@
                                                 <ol>
                                                     <li>
                                                         <p class="diplome">Educación Básica</p>
-                                                        <span class="point"></span>
+                                                        <div class="loader loader-2"></div>
                                                         <p class="description">
                                                             Primaria y secundaria
                                                         </p>
                                                     </li>
                                                     <li>
                                                         <p class="diplome">Medio Superior</p>
-                                                        <span class="point"></span>
+                                                        <div class="loader loader-2"></div>
                                                         <p class="description">
                                                             Técnico en informática en CECyT 5 "Benito Juárez"
                                                         </p>
                                                     </li>
                                                     <li>
                                                         <p class="diplome">Superior</p>
-                                                        <span class="point"></span>
+                                                        <div class="loader loader-2"></div>
                                                         <p class="description">
                                                             Licenciatura en Ciencias de la informática en UPIICSA-IPN
                                                             <br>
@@ -284,6 +283,7 @@
                                     style="background-image: url('https://cdn.pixabay.com/photo/2018/05/08/08/44/artificial-intelligence-3382507_1280.jpg')">
                                     <h3>Habilidades</h3>
                                 </a>
+
                                 {{-- Modal Laboral --}}
                                 <div class="mainModal" id="modalProfessional" style="display: none">
                                     <div class="mainModal--lockup">
@@ -297,6 +297,7 @@
                                             <div class="modal--information">
                                                 {{-- Timeline --}}
                                                 <section id="timeline">
+                                                    {{-- Virket --}}
                                                     <div class="tl-item">
                                                         <div class="tl-bg"
                                                             style="background-image: url(https://placeimg.com/801/801/nature)">
@@ -312,15 +313,15 @@
                                                                     Virket
                                                                 </a>
                                                             </h1>
-                                                            <p>Diseño de sitios web estáticos con buenos estándares de
-                                                                rendimiento adaptados a las necesidades de los clientes.
+                                                            <p>Diseño de sitios web estáticos con partner GoDaddy.
                                                             </p>
                                                             <p>
-                                                                <i>HTML5, CSS, Wordpress</i>
+                                                                <i>HTML5, CSS, Wordpress, Google PageSpeed</i>
                                                             </p>
                                                         </div>
                                                     </div>
 
+                                                    {{-- EPOEM 50 --}}
                                                     <div class="tl-item">
                                                         <div class="tl-bg"
                                                             style="background-image: url(https://placeimg.com/802/802/nature)">
@@ -332,20 +333,22 @@
 
                                                         <div class="tl-content">
                                                             <h1>
-                                                                <a href="https://epoem50.edu.mx/" target="_blank">
+                                                                <a href="https://pruebas.epoem50.edu.mx/"
+                                                                    target="_blank">
                                                                     EPOEM 50
                                                                 </a>
                                                             </h1>
-                                                            <p>Desarrollo desde cero de plataforma educativa que, a la
-                                                                fecha, continúa en operación con muchos más módulos.
+                                                            <p>Desarrollo de plataforma CRM educativa que continúa en
+                                                                operación.
                                                             </p>
                                                             <p>
                                                                 <i>HTML5, CSS (Bootstrap 4), JS (jQuery y librerías),
-                                                                    PHP y API's, Git (Github y Webhooks) y MySQL</i>
+                                                                    PHP (MVC), APIs, Git (Github y Webhooks) y MySQL</i>
                                                             </p>
                                                         </div>
                                                     </div>
 
+                                                    {{-- YKT --}}
                                                     <div class="tl-item">
                                                         <div class="tl-bg"
                                                             style="background-image: url(https://placeimg.com/803/803/nature)">
@@ -359,26 +362,26 @@
                                                             <h1>
                                                                 <a href="http://servykt.homeip.net:8083/wykt/externo/index.html"
                                                                     target="_blank">
-                                                                    Colegio Albert Einstein YKT
+                                                                    Colegio YKT
                                                                 </a>
                                                             </h1>
                                                             <p>Seguimiento a desarrollos, refactorización y creación de
                                                                 plataformas para control interno del colegio.</p>
                                                             <p>
                                                                 <i>HTML5, CSS (Bootstrap 4), JS (jQuery y librerías),
-                                                                    PHP
-                                                                    (Laravel 7 y API's|APIRest), GIT y MySQL</i>
+                                                                    PHP (Laravel 7 y API's|API RestFul), GIT y MySQL</i>
                                                             </p>
                                                         </div>
                                                     </div>
 
+                                                    {{-- MCK --}}
                                                     <div class="tl-item">
                                                         <div class="tl-bg"
                                                             style="background-image: url(https://placeimg.com/800/800/nature)">
                                                         </div>
 
                                                         <div class="tl-year">
-                                                            <p class="f2 heading--sanSerif">May/2022 - Actualidad</p>
+                                                            <p class="f2 heading--sanSerif">May/2022 - Julio/2023</p>
                                                         </div>
 
                                                         <div class="tl-content">
@@ -392,10 +395,33 @@
                                                             <p>
                                                                 <i>HTML5, CSS (Bootstrap 4 y 5, Tailwind 3, Less y
                                                                     SCSS),
-                                                                    JS (Node JS, Vue JS, Vanilla y librerías), PHP
-                                                                    (Laravel 7, API's|APIRest, Web Scrapping, Yii 2 y
-                                                                    CodeIgniter), GIT, MySQL, Google Cloud Platform y
-                                                                    SaaS, Linux y servidores.</i>
+                                                                    JS (Node JS, Vue JS), PHP
+                                                                    (Laravel 7, API's|APIRest, CodeIgniter), GIT, MySQL,
+                                                                    Google Cloud Platform, Linux y Docker.</i>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+
+                                                    {{-- Truper --}}
+                                                    <div class="tl-item">
+                                                        <div class="tl-bg"
+                                                            style="background-image: url(https://placeimg.com/800/800/nature)">
+                                                        </div>
+
+                                                        <div class="tl-year">
+                                                            <p class="f2 heading--sanSerif">Ago/2023 - Actualidad</p>
+                                                        </div>
+
+                                                        <div class="tl-content">
+                                                            <h1>
+                                                                <a href="https://www.mck.agency/" target="_blank">
+                                                                    Corporativo Truper
+                                                                </a>
+                                                            </h1>
+                                                            <p>Proyectos con impacto a nivel nacional e internacional
+                                                            </p>
+                                                            <p>
+                                                                <i>-</i>
                                                             </p>
                                                         </div>
                                                     </div>
@@ -405,7 +431,9 @@
                                         </div>
                                     </div>
                                 </div>
+
                                 {{-- Modal Habilidades --}}
+                                {{-- TODO: Desactivar scroll Y --}}
                                 <div class="mainModal" id="modalAbilities" style="display: none">
                                     <div class="mainModal--lockup">
                                         <div class="modal">
@@ -437,9 +465,11 @@
                                 <span class="close"><i class="material-icons">close</i></span>
                             </div>
                             <div class="carousel">
+                                {{-- TODO: Corregir, no se ve --}}
                                 <div class="info_back">
-                                    <h1>Earth</h1>
+                                    <h1>Proyecto EPOEM 50</h1>
                                 </div>
+                                {{-- TODO: Agregar botón de cerrar --}}
                                 <div class="citem active" id="p0">
                                     <h1>Discover</h1>
                                     <p>
@@ -574,8 +604,9 @@
                                     </p>
                                 </div>
                             </div>
+
                             <div class="content">
-                                <h1 class="title">Earth</h1>
+                                <h1 class="title">EPOEM 50</h1>
                                 <div class="helmet">
                                     <img ondragstart="return false;" src="{{ asset('img/galleryBack.png') }}" />
                                     <div class="planet_position">
@@ -610,8 +641,8 @@
                                         </div>
                                     </div>
                                     <div class="name_container">
-                                        <p class="pn">Earth</p>
-                                        <p class="more">READ MORE</p>
+                                        <p class="pn">EPOEM 50</p>
+                                        <p class="more">Detalles de proyecto</p>
                                     </div>
                                 </div>
                             </div>
@@ -630,9 +661,9 @@
                                         <input id="opt-1" type="checkbox" value="cotizacion" re>
                                         <label for="opt-1">
                                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                                                y="0px" viewBox="0 0 150 111"
-                                                style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;"
+                                                xml:space="preserve">
                                                 <g
                                                     transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
                                                     <path
@@ -645,9 +676,9 @@
                                         <input id="opt-2" type="checkbox" value="asesoria">
                                         <label for="opt-2">
                                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                                                y="0px" viewBox="0 0 150 111"
-                                                style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;"
+                                                xml:space="preserve">
                                                 <g
                                                     transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
                                                     <path
@@ -660,9 +691,9 @@
                                         <input id="opt-3" type="checkbox" value="capacitacion">
                                         <label for="opt-3">
                                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                                                y="0px" viewBox="0 0 150 111"
-                                                style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;"
+                                                xml:space="preserve">
                                                 <g
                                                     transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
                                                     <path
@@ -678,9 +709,9 @@
                                         <input id="opt-4" type="checkbox" value="trabajo">
                                         <label for="opt-4">
                                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                                                y="0px" viewBox="0 0 150 111"
-                                                style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;"
+                                                xml:space="preserve">
                                                 <g
                                                     transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
                                                     <path
@@ -693,9 +724,9 @@
                                         <input id="opt-5" type="checkbox" value="sugerencia">
                                         <label for="opt-5">
                                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                                                y="0px" viewBox="0 0 150 111"
-                                                style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;"
+                                                xml:space="preserve">
                                                 <g
                                                     transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
                                                     <path
@@ -708,9 +739,9 @@
                                         <input id="opt-6" type="checkbox" value="curso">
                                         <label for="opt-6">
                                             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                                                y="0px" viewBox="0 0 150 111"
-                                                style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;"
+                                                xml:space="preserve">
                                                 <g
                                                     transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
                                                     <path
