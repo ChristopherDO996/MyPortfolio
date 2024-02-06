@@ -155,12 +155,12 @@ function cmove(dir) {
             }
         });
 
-    var ani_dir = (dir == "next") ? "0%" : "100%";
+    // var ani_dir = (dir == "next") ? "0%" : "100%";
 
     anime.timeline({})
         .add({
             targets: '.planet_photo',
-            backgroundPosition: ['50% -75%', ani_dir + ' -85%'],
+            // backgroundPosition: ['50% -75%', ani_dir + ' -85%'],
             opacity: {
                 value: [1, 0]
             },
@@ -172,7 +172,7 @@ function cmove(dir) {
         })
         .add({
             targets: '.planet_photo',
-            backgroundPosition: ['0% -85%', '50% -75%'],
+            // backgroundPosition: ['0% -85%', '50% -75%'],
             opacity: [0.2, 1],
             duration: 500,
             easing: 'easeOutQuad'
@@ -182,12 +182,12 @@ function cmove(dir) {
     orbit.css("transform", "rotateZ(" + angle + "deg)");
 }
 
-$("#open_menu").on("click", function () {
-    $(".menu").show();
-});
+// $("#open_menu").on("click", function () {
+//     $(".menu").show();
+// });
 
 $(".close").on("click", function () {
-    $(".menu").hide();
+    closemodal();
 });
 
 $(".more").on("click", function () {

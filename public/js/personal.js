@@ -1,20 +1,23 @@
-$(document).ready(function () {
-    $('.menu-container').hover(function () {
-        setTimeout(() => {
-            $('.profile-actions').fadeIn();
-            $('.list-icon').addClass('active');
-        }, 200);
+/*
+* That file contains all interactions with personal modal in About section
+* Created by Christopher DO
+*/
 
-    }, function () {
-        setTimeout(() => {
+$(document).ready(function () {
+    $('.menu-container').on("click", function () {
+        /* Validate active class to show links to social network */
+        if ($('.list-icon').hasClass("active")) {
             $('.profile-actions').hide();
             $('.list-icon').removeClass('active');
-        }, 200);
-
+        } else {
+            $('.profile-actions').fadeIn();
+            $('.list-icon').addClass('active');
+        }
     }
     );
 
     $('.profile-card').mouseleave(function () {
+        $('.list-icon').removeClass('active');
         $('.profile-actions').slideUp();
         $('.profile-info').slideUp();
         $('.profile-map').slideUp();

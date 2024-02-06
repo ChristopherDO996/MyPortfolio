@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500");
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500');
+
 .container {
   position: relative;
   display: block;
@@ -6,15 +7,18 @@
   margin: auto;
   z-index: 100;
 }
+
 .container .carousel {
   position: absolute;
   background: black;
   transform: translateY(100%);
   will-change: transform;
-  width: 100%;
+  width: 80%;
   height: 100%;
   z-index: 10;
+  left: 15%;
 }
+
 .container .carousel .info_back {
   position: absolute;
   top: 0;
@@ -26,6 +30,7 @@
   background-image: url("https://i.kinja-img.com/gawker-media/image/upload/s--gBFsZfZv--/c_scale,fl_progressive,q_80,w_800/18mozgxwgu2ibjpg.jpg");
   text-align: center;
 }
+
 .container .carousel .info_back h1 {
   text-align: center;
   color: white;
@@ -36,13 +41,15 @@
   letter-spacing: 15px;
   opacity: 0;
 }
+
 .container .carousel .info_back h1 .letter {
   display: inline-block;
   line-height: 1em;
   opacity: 0;
 }
+
 .container .carousel .info_back:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   right: 0;
@@ -51,18 +58,22 @@
   background-image: linear-gradient(transparent, black);
   opacity: 1;
 }
+
 .container .carousel .active {
   display: block !important;
 }
+
 .container .carousel .citem {
   display: none;
   background: white;
   width: 100%;
   height: 100%;
+  margin-top: 10%;
   text-align: justify;
   transition: all 0.4s;
 }
-.container .carousel .citem h1 {
+
+/* .container .carousel .citem h1 {
   color: black;
   font-weight: 400;
   margin-top: 15vh;
@@ -70,30 +81,34 @@
   display: block;
   width: 100%;
   background: #eee;
-}
+} */
+
 .container .carousel .citem p {
   color: #777;
   font-size: 15px;
   padding: 20px 7vmin;
 }
+
 .container .carousel .citem p span {
   color: #555;
   font-size: 19px;
   display: block;
   padding: 15px 0;
 }
+
 .container .carousel .citem ul {
   color: #777;
   padding: 0 12vmin;
 }
+
 .container .menu {
   position: fixed;
-  width: 100%;
-  height: 100%;
+  font-size: 30px;
+  font-weight: bold;
+  right: 0;
   z-index: 10;
-  background: white;
-  display: none;
 }
+
 .container .menu .close {
   position: absolute;
   display: flex;
@@ -106,11 +121,13 @@
   background: rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
+
 .container .fixed_banner {
   position: absolute;
   width: 100%;
   z-index: 5;
 }
+
 .container .fixed_banner i {
   position: absolute;
   right: 25px;
@@ -118,40 +135,37 @@
   font-size: 30px;
   cursor: pointer;
 }
+
 .container .content {
   position: relative;
   width: 100%;
   height: 73vh;
   text-align: center;
 }
+
 .container .content .title {
   font-weight: 300;
-  font-size: 5.8vh;
   color: #ccc;
-  letter-spacing: 15px;
+  letter-spacing: 10px;
   text-transform: uppercase;
-  padding-top: 6vh;
   opacity: 0;
 }
+
 .container .content .title .letter {
   display: inline-block;
   line-height: 1em;
   opacity: 0;
 }
+
 .container .content .helmet {
   position: absolute;
-  width: 100%;
   height: 100%;
-  top: 9vmin;
 }
+
 .container .content .helmet img {
   position: absolute;
-  width: 90vmin;
+  width: 65vmin;
   margin: auto;
-  top: 11vmin;
-  bottom: 0vmin;
-  left: 0;
-  right: 0;
   border-radius: 50%;
   user-select: none;
   -moz-user-select: none;
@@ -159,29 +173,32 @@
   -webkit-user-select: none;
   -ms-user-select: none;
 }
+
 .container .content .helmet .planet_position {
   position: absolute;
-  width: 37vmin;
-  height: 37vmin;
-  background: black;
-  box-shadow: 0 10px 20px 10px rgb(0, 0, 0);
+  width: 28vmin;
+  height: 27vmin;
+  background: #000000d4;
+  box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 1);
   border-radius: 50%;
   margin: auto;
   top: 0;
-  bottom: 12vmin;
-  left: 0;
+  bottom: 28vmin;
+  left: 19vmin;
   right: 0;
   z-index: 1;
   overflow: hidden;
 }
+
 .container .content .helmet .planet_position .planet_shadow {
   position: absolute;
   width: 100%;
   height: 100%;
-  box-shadow: inset 0 -1.5vmax 3vmax 1.2vmax rgb(0, 0, 0);
+  box-shadow: inset 0 -1.5vmax 3vmax 1.2vmax rgba(0, 0, 0, 1);
   border-radius: 50%;
   z-index: 3;
 }
+
 .container .content .helmet .planet_position .planet_photo {
   position: absolute;
   width: 100%;
@@ -193,32 +210,40 @@
   z-index: 1;
   will-change: background;
 }
+
 .container .bottom {
   position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 28vh;
+  bottom: 100px;
+  width: 80%;
+  height: 25vh;
+  left: 220px;
 }
+
 .container .bottom .nav {
   width: 100%;
   height: 40px;
   padding-top: 15px;
 }
+
 .container .bottom .nav span {
   color: #999;
   cursor: pointer;
 }
+
 .container .bottom .nav span i {
   font-size: 40px;
   font-weight: 200;
 }
+
 .container .bottom .nav span:nth-child(1) {
   padding-left: 10vmin;
 }
+
 .container .bottom .nav span:nth-child(2) {
   padding-right: 10vmin;
   float: right;
 }
+
 .container .bottom .orbit {
   position: absolute;
   top: 5vh;
@@ -230,12 +255,14 @@
   left: 0;
   right: 0;
 }
+
 .container .bottom .orbit .planet_container {
   width: 100%;
   height: 100%;
   border-radius: 50%;
   transition: transform 0.7s ease-in;
 }
+
 .container .bottom .orbit .planet_container .planet {
   position: absolute;
   border-radius: 50%;
@@ -244,51 +271,60 @@
   transition: transform 0.4s linear;
   will-change: transform;
 }
+
 .container .bottom .orbit .planet_container .pt {
   transition: transform 0.4s ease-in;
   transform: scale(1.7);
   will-change: transform;
 }
+
 .container .bottom .orbit .planet_container .earth {
-  background: #3399ff;
+  background: #39f;
   top: -2.5vmin;
   left: 0;
   right: 0;
   margin: auto;
 }
+
 .container .bottom .orbit .planet_container .earth .moon span {
   top: -1vmin;
   left: -1vmin;
 }
+
 .container .bottom .orbit .planet_container .mars {
-  background: #FDB05E;
-  right: -2.5vmin;
-  bottom: 46.5vmin;
+  background: #fdb05e;
+  right: -5.5vmin;
+  top: 46vmin;
 }
+
 .container .bottom .orbit .planet_container .mars .moon span {
   width: 0.5vmin;
   height: 0.5vmin;
 }
+
 .container .bottom .orbit .planet_container .mars .moon span:nth-child(1) {
   top: -1vmin;
   left: -1vmin;
 }
+
 .container .bottom .orbit .planet_container .mars .moon span:nth-child(2) {
   left: 1vmin;
   bottom: -1vmin !important;
 }
+
 .container .bottom .orbit .planet_container .jupiter {
-  background: #996633;
-  right: 0;
-  left: 0;
+  background: #b16519;
+  left: 43vmin;
   margin: auto;
-  bottom: -2.5vmin;
+  top: 98.5vmin;
 }
+
 .container .bottom .orbit .planet_container .saturn {
-  background: #8A8975;
-  left: -2.5vmin;
-  bottom: 46.5vmin;
+  background: #979675;
+  left: -4.5vmin;
+  top: 44.5vmin;
 }
+
 .container .bottom .orbit .planet_container .saturn .ring {
   position: absolute;
   width: 100%;
@@ -296,6 +332,7 @@
   box-shadow: 0 0 0 5px white, 0 0 0 8px rgba(0, 0, 0, 0.5), 0 0 0 12px #d6d6c2;
   border-radius: 50%;
 }
+
 .container .bottom .orbit .name_container {
   position: absolute;
   display: flex;
@@ -309,6 +346,7 @@
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .container .bottom .orbit .name_container .more {
   width: 100%;
   padding: 8px 0;
@@ -317,10 +355,12 @@
   cursor: pointer;
   transition: color 0.2s;
 }
+
 .container .bottom .orbit .name_container .more:hover {
   color: #888;
   transition: color 0.3s;
 }
+
 .container .bottom .orbit .name_container .pn {
   font-size: 25px;
   color: #666;
@@ -330,6 +370,7 @@
   padding-left: 8px;
   border-bottom: 3px solid #bbb;
 }
+
 .container .bottom .orbit .name_container .pn .letter {
   display: inline-block;
   line-height: 1em;
@@ -341,10 +382,11 @@
   height: 100%;
   animation: planet_rotation 2s infinite linear;
 }
+
 .moon span {
   width: 0.8vmin;
   height: 0.8vmin;
-  background: black;
+  background: #878484;
   border-radius: 50%;
   position: absolute;
 }
@@ -353,7 +395,205 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
-}/*# sourceMappingURL=gallery.css.map */
+}
+
+/* Solar System Loading Animations */
+.spinner-box {
+  width: 300px;
+  height: 300px;
+  background-color: transparent;
+}
+
+.spinner-box p {
+  text-align: center;
+}
+
+/* KEYFRAMES */
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes spin3D {
+  from {
+    transform: rotate3d(.5, .5, .5, 360deg);
+  }
+
+  to {
+    transform: rotate3d(0deg);
+  }
+}
+
+@keyframes configure-clockwise {
+  0% {
+    transform: rotate(0);
+  }
+
+  25% {
+    transform: rotate(90deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  75% {
+    transform: rotate(270deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes configure-xclockwise {
+  0% {
+    transform: rotate(45deg);
+  }
+
+  25% {
+    transform: rotate(-45deg);
+  }
+
+  50% {
+    transform: rotate(-135deg);
+  }
+
+  75% {
+    transform: rotate(-225deg);
+  }
+
+  100% {
+    transform: rotate(-315deg);
+  }
+}
+
+@keyframes pulse {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  to {
+    opacity: .25;
+    transform: scale(.75);
+  }
+}
+
+/* SOLAR SYSTEM */
+
+.solar-system {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orbit {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fafbfC;
+  border-radius: 50%;
+}
+
+.earth-orbit {
+  width: 165px;
+  height: 165px;
+  -webkit-animation: spin 12s linear 0s infinite;
+}
+
+.venus-orbit {
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 7.4s linear 0s infinite;
+}
+
+.mercury-orbit {
+  width: 90px;
+  height: 90px;
+  -webkit-animation: spin 3s linear 0s infinite;
+}
+
+.planet {
+  position: absolute;
+  top: -5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #3ff9dc;
+}
+
+.sun {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #ffab91;
+}
+
+.leo {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.blue-orbit {
+  width: 165px;
+  height: 165px;
+  border: 1px solid #91daffa5;
+  -webkit-animation: spin3D 3s linear .2s infinite;
+}
+
+.green-orbit {
+  width: 120px;
+  height: 120px;
+  border: 1px solid #91ffbfa5;
+  -webkit-animation: spin3D 2s linear 0s infinite;
+}
+
+.red-orbit {
+  width: 90px;
+  height: 90px;
+  border: 1px solid #ffca91a5;
+  -webkit-animation: spin3D 1s linear 0s infinite;
+}
+
+.white-orbit {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #ffffff;
+  -webkit-animation: spin3D 10s linear 0s infinite;
+}
+
+.w1 {
+  transform: rotate3D(1, 1, 1, 90deg);
+}
+
+.w2 {
+  transform: rotate3D(1, 2, .5, 90deg);
+}
+
+.w3 {
+  transform: rotate3D(.5, 1, 2, 90deg);
+}
+
+.three-quarter-spinner {
+  width: 50px;
+  height: 50px;
+  border: 3px solid #fb5b53;
+  border-top: 3px solid transparent;
+  border-radius: 50%;
+  animation: spin .5s linear 0s infinite;
+}

@@ -32,7 +32,8 @@ $inactive: #AEB6BF
             max-width: 90%
 
         @media (max-width: 767px)
-            justify-content: center
+            width: 100%
+            max-width: 100%
 
         .modal
             padding: 45px 45px
@@ -44,22 +45,31 @@ $inactive: #AEB6BF
             &--spaceCloseButton
                 display: flex
                 justify-content: flex-end
+
                 a
                     color: $white
                     text-decoration: none
+                    font-size: 30px
+                    position: absolute
+                    margin: 5px 0
+                    top: 0
+                    z-index: 1
 
             &--information
 
                 .title_modal
                     position: relative
                     display: flex
-                    padding: auto
+                    padding: 15px
 
                 h3
                     font-size: 30px
                     font-weight: bold
                     color: $white
                     margin-bottom: 5%
+
+                    @media (max-width: 700px)
+                        font-size: 20px
                 /* Profile Card */
                 .profile-card
                     width: 90%
@@ -98,11 +108,6 @@ $inactive: #AEB6BF
                             float: left
 
                             .list-icon
-                                background: url('https://dl.dropboxusercontent.com/s/zgj5vdngzkemvpe/list-icon.png') no-repeat
-                                height: 18px
-                                width: 24px
-                                display: block
-                                opacity: 0.5
                                 transition: all .5s
                                 -moz-transition: all .5s
                                 -webkit-transition: all .5s
@@ -153,6 +158,7 @@ $inactive: #AEB6BF
 
                                         &:hover
                                             background: rgba(221, 221, 221, 0.2)
+                                            font-weight: bold
 
                         .profile-avatar
                             background: #ffffff
@@ -292,12 +298,18 @@ $inactive: #AEB6BF
                                     font-weight: bold
                                     font-size: 16px
 
+                                @media (max-width: 767px)
+                                    font-size: 12px
+                                    width: 30%
+                                    border: none
+                                    padding: 20px 0
+
                 /* End Profile Card */
                 /* Timeline */
                 ol
                     position: relative
                     display: block
-                    margin: 100px
+                    margin: 100px 125px 25px
                     height: 4px
                     background: #31708F
 
@@ -322,19 +334,22 @@ $inactive: #AEB6BF
                         border-left: 20px solid #31708F
                         border-radius: 3px
 
+                    @media (max-width: 767px)
+                        margin: 140px 0 40px
+
                 li
                     position: relative
                     display: inline-block
                     float: left
-                    width: 150px
+                    width: 130px
                     font: bold 14px arial
-                    height: 50px
+                    height: 35px
 
                     .diplome
                         position: absolute
-                        top: -50px
-                        color: $white
+                        top: -60px
                         font-style: italic
+                        transform: skewY(15deg)
 
                     .loader
                         width: 20px
@@ -393,6 +408,8 @@ $inactive: #AEB6BF
 
                                 100%
                                     transform: scale(1)
+                    @media (max-width: 700px)
+                        width: 90px
 
                     .description
                         display: none
@@ -426,7 +443,6 @@ $inactive: #AEB6BF
     p,
     a
         display: block
-        margin: 14px 0
         text-decoration: none
         color: $white
         font-weight: 700

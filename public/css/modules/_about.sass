@@ -13,54 +13,7 @@
 
   &--banner
     position: relative
-    height: 475px
-
-    &::before
-      content: ""
-      position: absolute
-      top: 20px
-      left: 200px
-      transform: rotate(-25deg)
-      border: 5px solid $highlight
-      border-right-color: transparent
-      border-bottom-color: transparent
-
-    &::after
-      content: ""
-      position: absolute
-      top: 75px
-      left: 400px
-      transform: rotate(45deg)
-      width: 10px
-      height: 10px
-      background-color: $highlight
-
-    h2
-      position: relative
-      margin-top: 35px
-      font-size: 68px
-      font-weight: 900
-      line-height: 1
-      z-index: 1
-
-      &::before
-        content: ""
-        position: absolute
-        top: 60px
-        left: 268px
-        width: 30px
-        height: 30px
-        background-color: $highlight
-        border-radius: 50%
-
-      &::after
-        content: ""
-        position: absolute
-        top: 255px
-        left: 255px
-        width: 10px
-        height: 10px
-        background-color: $highlight
+    bottom: 100px
 
     h3
       width: 50%
@@ -69,6 +22,9 @@
       font-weight: 900
       line-height: 1
       z-index: 1
+
+      @media (max-width: 600px)
+        font-size: 30px
 
     a
       padding: 5px 17px 5px 0
@@ -94,8 +50,19 @@
       top: 0
       right: 0
       filter: brightness(50%)
-      max-height: 110%
+      max-height: 150%
       border-radius: 50%
+
+  &--experience
+    width: 80%
+    height: 50%
+    position: relative
+    display: flex
+    left: 20%
+    margin-bottom: 20px
+
+    @media (max-width: 700px)
+      left: 0
 
   &--options
     display: flex
@@ -256,9 +223,3 @@
         &::after
           top: 205px
           left: 205px
-
-      img
-        display: none
-
-    &--options
-      display: none

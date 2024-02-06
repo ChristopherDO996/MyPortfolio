@@ -71,20 +71,20 @@
     text-align: center;
     opacity: 0;
     z-index: 1;
+    background: #0000008a;
 }
 
 .tl-content a {
     font-family: 'Pathway Gothic One', Helvetica Neue, Helvetica, Arial, sans-serif;
     text-transform: uppercase;
-    color: #1779cf;
-    font-size: 14px;
-    font-weight: normal;
-    text-decoration: none;
+    color: rgba(5, 105, 187, .9607843137);
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .tl-content p {
     font-weight: 100;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .tl-year {
