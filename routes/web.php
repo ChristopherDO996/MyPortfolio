@@ -16,14 +16,25 @@ use App\Http\Controllers\BlogController;
 */
 
 Route::get('/', function () {
-    return view('master');
-});
-/* Form */
-Route::prefix('home')->group(function () {
-    Route::post('sendData', 'formController@send')->name('sendData');
-});
+    return view('home');
+})->name("home");
 
-/* Blog */
-Route::prefix('blog')->group(function () {
-    Route::get('login', [BlogController::class, 'login']);
-});
+Route::get('about', function () {
+    return view('about');
+})->name("about");
+
+Route::get('skills', function () {
+    return view('abilities');
+})->name("skills");
+
+Route::get('portfolio', function () {
+    return view('portfolio');
+})->name("portfolio");
+
+Route::get('contact', function () {
+    return view('contact');
+})->name("contact");
+
+Route::get('blog', function () {
+    return view('blog');
+})->name("blog");
