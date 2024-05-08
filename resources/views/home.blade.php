@@ -19,4 +19,54 @@
             </a>
         </div>
     </div>
+    <div class="intro--services">
+        <div class="boxesContainer">
+            {{-- Full Stack Description Card --}}
+            <div class="cardBox">
+                <div class="card">
+                    <div class="front">
+                        <h3>Desarrollo Web Full Stack</h3>
+                        <p>Acerca el cursor</p>
+                        <strong>&#x21bb;</strong>
+                    </div>
+                    <div class="back">
+                        <p>Tú lo imaginas, yo lo diseño, lo programo, lo subo a internet y después lo administro.</p>
+                        {{-- TODO: Linkear al portafolio --}}
+                        <a href="#">Ver Portafolio</a>
+                    </div>
+                </div>
+            </div>
+            {{-- Databases Description Card --}}
+            <div class="cardBox">
+                <div class="card">
+                    <div class="front">
+                        <h3>Bases de datos</h3>
+                        <p>Acerca el cursor</p>
+                        <strong>&#x21bb;</strong>
+                    </div>
+                    <div class="back">
+                        <p>Diseño bases de datos, las administro y también hago reingenierías.</p>
+                        {{-- TODO: Agregar vista de bocetos realizados --}}
+                        <a href="#">Ver ejemplos</a>
+                    </div>
+                </div>
+            </div>
+            {{-- Courses Description Card --}}
+            <div class="cardBox">
+                <div class="card">
+                    <div class="front">
+                        <h3>Asesorías y Mentorías</h3>
+                        <p>Acerca el cursor</p>
+                        <strong>&#x21bb;</strong>
+                    </div>
+                    <div class="back">
+                        <p>Doy asesorías de desarrollo web e incluso clases desde básico a avanzado. Actualmente tengo tres
+                            alumnos en mis clases privadas.</p>
+                        {{-- TODO: Agregar link de cursos --}}
+                        <a href="#">Ver trabajos de clases</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection
