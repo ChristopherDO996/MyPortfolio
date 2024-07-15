@@ -14,18 +14,19 @@
   &--banner
     position: relative
     display: flex
+    justify-content: space-evenly
     bottom: 100px
 
     h3
       width: 60%
-      position: relative
-      font-size: 40px
+      display: flex
+      font-size: 32px
       font-weight: 900
-      line-height: 1
-      z-index: 1
+      line-height: 1.5
+      align-items: center
 
       @media (max-width: 600px)
-        font-size: 30px
+        font-size: 24px
 
     .caroussel
       width: 30%
@@ -39,7 +40,7 @@
       position: relative
       .photo
         position: absolute
-        max-width: 100%
+        width: -webkit-fill-available
         height: -webkit-fill-available
         animation: round 16s infinite
         opacity: 0
@@ -76,11 +77,8 @@
 
   &--options
     display: flex
-    max-width: 600px
+    width: 100%
     justify-content: space-evenly
-    margin: 0
-    padding: 0
-    list-style: none
 
     & > a
       position: relative
@@ -119,65 +117,6 @@
       font-size: 16px
       text-transform: uppercase
       transition: bottom .2s ease-in-out, left .2s ease-in-out
-    &--modal-window
-      position: fixed
-      background-color: rgba(255, 255, 255, 0.25)
-      top: 0
-      right: 0
-      bottom: 0
-      left: 0
-      z-index: 999
-      visibility: hidden
-      opacity: 0
-      pointer-events: none
-      transition: all 0.3s
-      &:target
-        visibility: visible
-        opacity: 1
-        pointer-events: auto
-
-      & > div
-        width: 400px
-        position: absolute
-        top: 50%
-        left: 50%
-        transform: translate(-50%, -50%)
-        padding: 2em
-        background: white
-
-      header
-        font-weight: bold
-
-      h1
-        font-size: 150%
-        margin: 0 0 15px
-
-    .modal-close
-      color: #aaa
-      line-height: 50px
-      font-size: 80%
-      position: absolute
-      right: 0
-      text-align: center
-      top: 0
-      width: 70px
-      text-decoration: none
-      &:hover
-        color: black
-
-    .modal-window
-      div
-        border-radius: 1rem
-
-    .modal-window div:not(:last-of-type)
-      margin-bottom: 15px
-
-    .logo
-      max-width: 150px
-      display: block
-
-    small
-      color: lightgray
 
 @media (max-width: 767px)
 

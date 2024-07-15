@@ -58,7 +58,7 @@
                     <div class="back">
                         <p>
                             Actualmente doy clases privadas a tres estudiantes que comienzan su vida profesional en el mundo
-                            del desarrollo web. Además, también doy asesorías a proyectos en crecimiento y no cobro por ello.
+                            del desarrollo web. Además, también doy asesorías a proyectos en crecimiento.
                         </p>
                         {{-- TODO: Agregar link de cursos --}}
                         <a href="{{ route('contact') }}">Contáctame</a>
