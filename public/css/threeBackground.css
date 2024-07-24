@@ -1,0 +1,60 @@
+@-webkit-keyframes skygradient {
+    0% {
+        background-position: 50% 0%
+    }
+
+    50% {
+        background-position: 50% 100%
+    }
+
+    100% {
+        background-position: 50% 0%
+    }
+}
+
+@-moz-keyframes skygradient {
+    0% {
+        background-position: 50% 0%
+    }
+
+    50% {
+        background-position: 50% 100%
+    }
+
+    100% {
+        background-position: 50% 0%
+    }
+}
+
+@-o-keyframes skygradient {
+    0% {
+        background-position: 50% 0%
+    }
+
+    50% {
+        background-position: 50% 100%
+    }
+
+    100% {
+        background-position: 50% 0%
+    }
+}
+
+@keyframes skygradient {
+    0% {
+        background-position: 50% 0%
+    }
+
+    50% {
+        background-position: 50% 100%
+    }
+
+    100% {
+        background-position: 50% 0%
+    }
+}
+
+canvas {
+    width: 100% !important;
+    height: 100% !important;
+}

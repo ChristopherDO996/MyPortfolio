@@ -26,7 +26,7 @@
 
     {{-- Modals --}}
     {{-- Modal Personal --}}
-    <div class="modal" id="modal-name">
+    <div class="modal" id="modal-name" style="display: none">
         <div class="modal-sandbox"></div>
         <div class="modal-box">
             <div class="modal-header">
@@ -51,7 +51,6 @@
                         </p>
                     </div>
                 </div>
-                {{-- TODO: Animar cards --}}
                 <div class="cards-modal">
                     <div>5 años de experiencia profesional</div>
                     <div>11 proyectos realizados desde cero</div>
@@ -62,7 +61,7 @@
         </div>
     </div>
     {{-- Modal Educación --}}
-    <div class="modal" id="modal-education">
+    <div class="modal" id="modal-education" style="display: none">
         <div class="modal-sandbox"></div>
         <div class="modal-box">
             <div class="modal-header">
@@ -70,29 +69,39 @@
                 <div class="close-modal">&#10006;</div>
             </div>
             <div class="modal-body">
-                ON DEPLOY
+                <ul class="timeline">
+                    <!-- Universidad -->
+                    <li>
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="flag">UPIICSA - IPN</span>
+                                <span class="time-wrapper"><span class="time">Pasante</span></span>
+                            </div>
+                            <div class="desc">- Pasante, sin título (en progreso) <br>- Inglés B2</div>
+                        </div>
+                    </li>
+
+                    <!-- Vocacional -->
+                    <li>
+                        <div class="direction-l">
+                            <div class="flag-wrapper">
+                                <span class="flag">CECyT 5 - IPN</span>
+                                <span class="time-wrapper"><span class="time">Técnico en Informática</span></span>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Educación básica -->
+                    <li>
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="flag">Educación básica</span>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
             </div>
         </div>
     </div>
-
-    <script src=" https://code.jquery.com/jquery-3.7.1.min.js"
-        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-
-    <script>
-        $(".modal-trigger").click(function(e) {
-            e.preventDefault();
-            dataModal = $(this).attr("data-modal");
-            $("#" + dataModal).css({
-                "display": "block"
-            });
-            // $("body").css({"overflow-y": "hidden"}); //Prevent double scrollbar.
-        });
-
-        $(".close-modal, .modal-sandbox").click(function() {
-            $(".modal").css({
-                "display": "none"
-            });
-            // $("body").css({"overflow-y": "auto"}); //Prevent double scrollbar.
-        });
-    </script>
 @endsection

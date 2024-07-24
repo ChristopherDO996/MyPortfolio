@@ -10,11 +10,15 @@
     <meta name="keywords" content="global, template, html, sass, jquery">
     <meta name="author" content="Bucky Maler">
     @include('partials.styles')
+    <link rel="stylesheet" href="{{ asset('css/threeBackground.css') }}">
     {{-- Font Awesome  --}}
     <script src="https://kit.fontawesome.com/61ab49a963.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+
+    <div id="universe" />
+
     <div class="perspective effect-rotate-left">
         <div class="container">
             <div class="outer-nav--return"></div>
