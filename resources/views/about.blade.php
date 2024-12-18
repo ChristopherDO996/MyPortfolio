@@ -2,6 +2,7 @@
 
 {{-- Details about me --}}
 @section('content')
+    <div class="overlay"></div>
     <div class="about">
         <div class="about--banner">
             <h3><i>Si lo podemos imaginar, lo podemos programar</i></h3>

@@ -3,9 +3,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
 <script src="{{ asset('js/functions-min.js') }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"></script>
-@if (Route::currentRouteName() !== 'skills')
-    <script src="{{ asset('js/threeBackground.js') }}"></script>
-@endif
+<script src="{{ asset('js/threeBackground.js') }}"></script>
 <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
 <script src="{{ asset('js/abilities.js') }}"></script>
 <script>
@@ -15,11 +13,15 @@
         $("#" + dataModal).css({
             "display": "block"
         });
+        $(".overlay").css("display", "block");
     });
 
     $(".close-modal, .modal-sandbox").click(function() {
         $(".modal").css({
             "display": "none"
+        });
+        $(".overlay").css({
+            "display": "none",
         });
     });
 </script>
