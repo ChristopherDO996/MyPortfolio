@@ -2,71 +2,53 @@
 <html lang="en">
 
 <head>
-    <title>Christopher DO | Full Stack Developer</title>
-    <link rel="icon" type="image/x-icon" href="{{ asset('img/favicon.png') }}">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="HTML5 website template">
-    <meta name="keywords" content="global, template, html, sass, jquery">
-    <meta name="author" content="Bucky Maler">
-    @include('partials.styles')
-    <link rel="stylesheet" href="{{ asset('css/threeBackground.css') }}">
-    {{-- Font Awesome  --}}
-    <script src="https://kit.fontawesome.com/61ab49a963.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Christopher DO.">
+    <meta name="description" content="Mi portafolio de proyectos de desarrollo web">
+
+    <title>CDO | Mi portafolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ asset('css/components/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/lib/all.min.css') }}"> {{-- FontAwesome --}}
+    <link rel="stylesheet" href="{{ asset('css/lib/animate.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/components/slick.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/components/structure.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/components/responsive.css') }}">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- icons -->
+    <link rel="icon" href="{{ asset('img/favicon.png') }}">
+    <link rel="apple-touch-icon" href="{{ asset('img/favicon.png') }}">
+    <!-- icons -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+            <![endif]-->
+    <!-- Template Developed By Sa_Studio -->
 </head>
 
 <body>
+    <div id="ncf-overlay"></div>
 
-    <div id="universe" />
+    <div class="main-wrapper">
 
-    <div class="perspective effect-rotate-left">
-        <div class="container">
-            <div class="outer-nav--return"></div>
-            <div id="viewport" class="l-viewport">
-                <div class="l-wrapper">
-                    @include('partials.header')
-                    {{-- Main Body separated by list form --}}
-                    @yield('content')
+        @yield('content')
 
-                </div>
-            </div>
-        </div>
-    </div>
-    <ul class="outer-nav">
+    </div><!-- /.main-wrapper -->
 
-        <a href="{{ route('home') }}">
-            <li @if (Route::currentRouteName() == 'home') class="is-active" @endif>
-                Inicio
-            </li>
-        </a>
-        <a href="{{ route('about') }}">
-            <li @if (Route::currentRouteName() == 'about') class="is-active" @endif>
-                Sobre mí
-            </li>
-        </a>
-        <a href="{{ route('skills') }}">
-            <li @if (Route::currentRouteName() == 'skills') class="is-active" @endif>
-                Habilidades
-            </li>
-        </a>
-        <a href="{{ route('portfolio') }}">
-            <li @if (Route::currentRouteName() == 'portfolio') class="is-active" @endif>
-                Portafolio
-            </li>
-        </a>
-        <a href="{{ route('blog') }}">
-            <li @if (Route::currentRouteName() == 'blog') class="is-active" @endif>
-                Blog
-            </li>
-        </a>
-        <a href="{{ route('contact') }}">
-            <li @if (Route::currentRouteName() == 'contact') class="is-active" @endif>
-                Contáctame
-            </li>
-        </a>
-    </ul>
-
+    @include('partials.footer')
     @include('partials.scripts')
 </body>
 

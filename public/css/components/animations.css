@@ -1,0 +1,507 @@
+.cta-shap .shap-1 {
+    -webkit-animation: shap-1 20s linear infinite;
+    -moz-animation: shap-1 20s linear infinite;
+    animation: shap-1 20s linear infinite;
+}
+
+@-webkit-keyframes shap-1 {
+    0% {
+        -webkit-transform: translate(0px, 0px) scale(1, 1);
+        transform: translate(0px, 0px) scale(1, 1);
+    }
+
+    25% {
+        -webkit-transform: translate(20px, 20px) scale(0.8, 0.8);
+        transform: translate(20px, 20px) scale(0.8, 0.8);
+    }
+
+    50% {
+        -webkit-transform: translate(-20px, -10px) scale(1, 1);
+        transform: translate(-20px, -10px) scale(1, 1);
+    }
+
+    75% {
+        -webkit-transform: translate(50px, 30px) scale(1.1, 1.1);
+        transform: translate(50px, 30px) scale(1.1, 1.1);
+    }
+}
+
+@-moz-keyframes shap-1 {
+    0% {
+        -webkit-transform: translate(0px, 0px) scale(1, 1);
+        transform: translate(0px, 0px) scale(1, 1);
+    }
+
+    25% {
+        -webkit-transform: translate(20px, 20px) scale(0.8, 0.8);
+        transform: translate(20px, 20px) scale(0.8, 0.8);
+    }
+
+    50% {
+        -webkit-transform: translate(-20px, -10px) scale(1, 1);
+        transform: translate(-20px, -10px) scale(1, 1);
+    }
+
+    75% {
+        -webkit-transform: translate(50px, 30px) scale(1.1, 1.1);
+        transform: translate(50px, 30px) scale(1.1, 1.1);
+    }
+}
+
+@keyframes shap-1 {
+    0% {
+        -webkit-transform: translate(0px, 0px) scale(1, 1);
+        transform: translate(0px, 0px) scale(1, 1);
+    }
+
+    25% {
+        -webkit-transform: translate(20px, 20px) scale(0.8, 0.8);
+        transform: translate(20px, 20px) scale(0.8, 0.8);
+    }
+
+    50% {
+        -webkit-transform: translate(-20px, -10px) scale(1, 1);
+        transform: translate(-20px, -10px) scale(1, 1);
+    }
+
+    75% {
+        -webkit-transform: translate(50px, 30px) scale(1.1, 1.1);
+        transform: translate(50px, 30px) scale(1.1, 1.1);
+    }
+}
+
+.cta-shap .shap-2 {
+    -webkit-animation: shap-2 15s linear infinite;
+    -moz-animation: shap-2 15s linear infinite;
+    animation: shap-2 15s linear infinite;
+}
+
+@-webkit-keyframes shap-2 {
+    0% {
+        -webkit-transform: translate(0px, 0px) scale(1, 1);
+        transform: translate(0px, 0px) scale(1, 1);
+    }
+
+    25% {
+        -webkit-transform: translate(20px, 20px) scale(0.8, 0.8);
+        transform: translate(20px, 20px) scale(0.8, 0.8);
+    }
+
+    50% {
+        -webkit-transform: translate(-20px, -10px) scale(1, 1);
+        transform: translate(-20px, -10px) scale(1, 1);
+    }
+
+    75% {
+        -webkit-transform: translate(50px, 30px) scale(1.1, 1.1);
+        transform: translate(50px, 30px) scale(1.1, 1.1);
+    }
+}
+
+@-moz-keyframes shap-2 {
+    0% {
+        -webkit-transform: translate(0px, 0px) scale(1, 1);
+        transform: translate(0px, 0px) scale(1, 1);
+    }
+
+    25% {
+        -webkit-transform: translate(20px, 20px) scale(0.8, 0.8);
+        transform: translate(20px, 20px) scale(0.8, 0.8);
+    }
+
+    50% {
+        -webkit-transform: translate(-20px, -10px) scale(1, 1);
+        transform: translate(-20px, -10px) scale(1, 1);
+    }
+
+    75% {
+        -webkit-transform: translate(50px, 30px) scale(1.1, 1.1);
+        transform: translate(50px, 30px) scale(1.1, 1.1);
+    }
+}
+
+@keyframes shap-2 {
+    0% {
+        -webkit-transform: translate(0px, 0px) scale(1, 1);
+        transform: translate(0px, 0px) scale(1, 1);
+    }
+
+    25% {
+        -webkit-transform: translate(20px, 20px) scale(0.8, 0.8);
+        transform: translate(20px, 20px) scale(0.8, 0.8);
+    }
+
+    50% {
+        -webkit-transform: translate(-20px, -10px) scale(1, 1);
+        transform: translate(-20px, -10px) scale(1, 1);
+    }
+
+    75% {
+        -webkit-transform: translate(50px, 30px) scale(1.1, 1.1);
+        transform: translate(50px, 30px) scale(1.1, 1.1);
+    }
+}
+
+
+.cta-shap .shap-3 {
+    -webkit-animation: shap-2 10s linear infinite;
+    -moz-animation: shap-2 10s linear infinite;
+    animation: shap-2 10s linear infinite;
+}
+
+@-webkit-keyframes shap-3 {
+    0% {
+        -webkit-transform: translate(0px, 0px) scale(1, 1);
+        transform: translate(0px, 0px) scale(1, 1);
+    }
+
+    25% {
+        -webkit-transform: translate(20px, 20px) scale(0.8, 0.8);
+        transform: translate(20px, 20px) scale(0.8, 0.8);
+    }
+
+    50% {
+        -webkit-transform: translate(-20px, -10px) scale(1, 1);
+        transform: translate(-20px, -10px) scale(1, 1);
+    }
+
+    75% {
+        -webkit-transform: translate(50px, 30px) scale(1.1, 1.1);
+        transform: translate(50px, 30px) scale(1.1, 1.1);
+    }
+}
+
+@-moz-keyframes shap-3 {
+    0% {
+        -webkit-transform: translate(0px, 0px) scale(1, 1);
+        transform: translate(0px, 0px) scale(1, 1);
+    }
+
+    25% {
+        -webkit-transform: translate(20px, 20px) scale(0.8, 0.8);
+        transform: translate(20px, 20px) scale(0.8, 0.8);
+    }
+
+    50% {
+        -webkit-transform: translate(-20px, -10px) scale(1, 1);
+        transform: translate(-20px, -10px) scale(1, 1);
+    }
+
+    75% {
+        -webkit-transform: translate(50px, 30px) scale(1.1, 1.1);
+        transform: translate(50px, 30px) scale(1.1, 1.1);
+    }
+}
+
+@keyframes shap-3 {
+    0% {
+        -webkit-transform: translate(0px, 0px) scale(1, 1);
+        transform: translate(0px, 0px) scale(1, 1);
+    }
+
+    25% {
+        -webkit-transform: translate(20px, 20px) scale(0.8, 0.8);
+        transform: translate(20px, 20px) scale(0.8, 0.8);
+    }
+
+    50% {
+        -webkit-transform: translate(-20px, -10px) scale(1, 1);
+        transform: translate(-20px, -10px) scale(1, 1);
+    }
+
+    75% {
+        -webkit-transform: translate(50px, 30px) scale(1.1, 1.1);
+        transform: translate(50px, 30px) scale(1.1, 1.1);
+    }
+}
+
+.banner-content .shap-1 {
+    -webkit-animation: shap-4 15s linear infinite;
+    -moz-animation: shap-4 15s linear infinite;
+    animation: shap-4 15s linear infinite;
+}
+
+.banner-content .shap-2 {
+    -webkit-animation: shap-5 10s linear infinite;
+    -moz-animation: shap-5 10s linear infinite;
+    animation: shap-5 10s linear infinite;
+}
+
+
+@-webkit-keyframes shap-4 {
+    0% {
+        -webkit-transform: translate(0px, 0px) scale(1, 1);
+        transform: translate(0px, 0px) scale(1, 1);
+    }
+
+    25% {
+        -webkit-transform: translate(20px, 20px) scale(0.8, 0.8);
+        transform: translate(20px, 20px) scale(0.8, 0.8);
+    }
+
+    50% {
+        -webkit-transform: translate(-20px, -10px) scale(1, 1);
+        transform: translate(-20px, -10px) scale(1, 1);
+    }
+
+    75% {
+        -webkit-transform: translate(50px, 30px) scale(1.1, 1.1);
+        transform: translate(50px, 30px) scale(1.1, 1.1);
+    }
+}
+
+@-moz-keyframes shap-4 {
+    0% {
+        -webkit-transform: translate(0px, 0px) scale(1, 1);
+        transform: translate(0px, 0px) scale(1, 1);
+    }
+
+    25% {
+        -webkit-transform: translate(20px, 20px) scale(0.8, 0.8);
+        transform: translate(20px, 20px) scale(0.8, 0.8);
+    }
+
+    50% {
+        -webkit-transform: translate(-20px, -10px) scale(1, 1);
+        transform: translate(-20px, -10px) scale(1, 1);
+    }
+
+    75% {
+        -webkit-transform: translate(50px, 30px) scale(1.1, 1.1);
+        transform: translate(50px, 30px) scale(1.1, 1.1);
+    }
+}
+
+@keyframes shap-4 {
+    0% {
+        -webkit-transform: translate(0px, 0px) scale(1, 1);
+        transform: translate(0px, 0px) scale(1, 1);
+    }
+
+    25% {
+        -webkit-transform: translate(20px, 20px) scale(0.8, 0.8);
+        transform: translate(20px, 20px) scale(0.8, 0.8);
+    }
+
+    50% {
+        -webkit-transform: translate(-20px, -10px) scale(1, 1);
+        transform: translate(-20px, -10px) scale(1, 1);
+    }
+
+    75% {
+        -webkit-transform: translate(50px, 30px) scale(1.1, 1.1);
+        transform: translate(50px, 30px) scale(1.1, 1.1);
+    }
+}
+
+@-webkit-keyframes shap-5 {
+    0% {
+        -webkit-transform: translate(0px, 0px) scale(1, 1);
+        transform: translate(0px, 0px) scale(1, 1);
+    }
+
+    25% {
+        -webkit-transform: translate(20px, 20px) scale(0.8, 0.8);
+        transform: translate(20px, 20px) scale(0.8, 0.8);
+    }
+
+    50% {
+        -webkit-transform: translate(-20px, -10px) scale(1, 1);
+        transform: translate(-20px, -10px) scale(1, 1);
+    }
+
+    75% {
+        -webkit-transform: translate(50px, 30px) scale(1.1, 1.1);
+        transform: translate(50px, 30px) scale(1.1, 1.1);
+    }
+}
+
+@-moz-keyframes shap-5 {
+    0% {
+        -webkit-transform: translate(0px, 0px) scale(1, 1);
+        transform: translate(0px, 0px) scale(1, 1);
+    }
+
+    25% {
+        -webkit-transform: translate(20px, 20px) scale(0.8, 0.8);
+        transform: translate(20px, 20px) scale(0.8, 0.8);
+    }
+
+    50% {
+        -webkit-transform: translate(-20px, -10px) scale(1, 1);
+        transform: translate(-20px, -10px) scale(1, 1);
+    }
+
+    75% {
+        -webkit-transform: translate(50px, 30px) scale(1.1, 1.1);
+        transform: translate(50px, 30px) scale(1.1, 1.1);
+    }
+}
+
+@keyframes shap-5 {
+    0% {
+        -webkit-transform: translate(0px, 0px) scale(1, 1);
+        transform: translate(0px, 0px) scale(1, 1);
+    }
+
+    25% {
+        -webkit-transform: translate(20px, 20px) scale(0.8, 0.8);
+        transform: translate(20px, 20px) scale(0.8, 0.8);
+    }
+
+    50% {
+        -webkit-transform: translate(-20px, -10px) scale(1, 1);
+        transform: translate(-20px, -10px) scale(1, 1);
+    }
+
+    75% {
+        -webkit-transform: translate(50px, 30px) scale(1.1, 1.1);
+        transform: translate(50px, 30px) scale(1.1, 1.1);
+    }
+}
+
+
+.portfolio-shap .shap-1 {
+    -webkit-animation: shap-6 5s linear infinite;
+    -moz-animation: shap-6 5s linear infinite;
+    animation: shap-6 5s linear infinite;
+}
+
+.portfolio-shap .shap-2 {
+    -webkit-animation: shap-7 8s linear infinite;
+    -moz-animation: shap-7 8s linear infinite;
+    animation: shap-7 8s linear infinite;
+}
+
+
+@-webkit-keyframes shap-6 {
+    0% {
+        -webkit-transform: translate(0px, 0px) scale(1, 1);
+        transform: translate(0px, 0px) scale(1, 1);
+    }
+
+    25% {
+        -webkit-transform: translate(10px, 10px) scale(0.8, 0.8);
+        transform: translate(10px, 10px) scale(0.8, 0.8);
+    }
+
+    50% {
+        -webkit-transform: translate(-10px, -10px) scale(1, 1);
+        transform: translate(-10px, -5px) scale(1, 1);
+    }
+
+    75% {
+        -webkit-transform: translate(20px, 15px) scale(1.1, 1.1);
+        transform: translate(20px, 15px) scale(1.1, 1.1);
+    }
+}
+
+@-moz-keyframes shap-6 {
+    0% {
+        -webkit-transform: translate(0px, 0px) scale(1, 1);
+        transform: translate(0px, 0px) scale(1, 1);
+    }
+
+    25% {
+        -webkit-transform: translate(10px, 10px) scale(0.8, 0.8);
+        transform: translate(10px, 10px) scale(0.8, 0.8);
+    }
+
+    50% {
+        -webkit-transform: translate(-10px, -10px) scale(1, 1);
+        transform: translate(-10px, -5px) scale(1, 1);
+    }
+
+    75% {
+        -webkit-transform: translate(20px, 15px) scale(1.1, 1.1);
+        transform: translate(20px, 15px) scale(1.1, 1.1);
+    }
+}
+
+@keyframes shap-6 {
+    0% {
+        -webkit-transform: translate(0px, 0px) scale(1, 1);
+        transform: translate(0px, 0px) scale(1, 1);
+    }
+
+    25% {
+        -webkit-transform: translate(10px, 10px) scale(0.8, 0.8);
+        transform: translate(10px, 10px) scale(0.8, 0.8);
+    }
+
+    50% {
+        -webkit-transform: translate(-10px, -10px) scale(1, 1);
+        transform: translate(-10px, -5px) scale(1, 1);
+    }
+
+    75% {
+        -webkit-transform: translate(20px, 15px) scale(1.1, 1.1);
+        transform: translate(20px, 15px) scale(1.1, 1.1);
+    }
+}
+
+@-webkit-keyframes shap-7 {
+    0% {
+        -webkit-transform: translate(0px, 0px) scale(1, 1);
+        transform: translate(0px, 0px) scale(1, 1);
+    }
+
+    25% {
+        -webkit-transform: translate(10px, 10px) scale(0.8, 0.8);
+        transform: translate(10px, 10px) scale(0.8, 0.8);
+    }
+
+    50% {
+        -webkit-transform: translate(-10px, -10px) scale(1, 1);
+        transform: translate(-10px, -5px) scale(1, 1);
+    }
+
+    75% {
+        -webkit-transform: translate(20px, 15px) scale(1.1, 1.1);
+        transform: translate(20px, 15px) scale(1.1, 1.1);
+    }
+}
+
+@-moz-keyframes shap-7 {
+    0% {
+        -webkit-transform: translate(0px, 0px) scale(1, 1);
+        transform: translate(0px, 0px) scale(1, 1);
+    }
+
+    25% {
+        -webkit-transform: translate(10px, 10px) scale(0.8, 0.8);
+        transform: translate(10px, 10px) scale(0.8, 0.8);
+    }
+
+    50% {
+        -webkit-transform: translate(-10px, -10px) scale(1, 1);
+        transform: translate(-10px, -5px) scale(1, 1);
+    }
+
+    75% {
+        -webkit-transform: translate(20px, 15px) scale(1.1, 1.1);
+        transform: translate(20px, 15px) scale(1.1, 1.1);
+    }
+}
+
+@keyframes shap-7 {
+    0% {
+        -webkit-transform: translate(0px, 0px) scale(1, 1);
+        transform: translate(0px, 0px) scale(1, 1);
+    }
+
+    25% {
+        -webkit-transform: translate(10px, 10px) scale(0.8, 0.8);
+        transform: translate(10px, 10px) scale(0.8, 0.8);
+    }
+
+    50% {
+        -webkit-transform: translate(-10px, -10px) scale(1, 1);
+        transform: translate(-10px, -5px) scale(1, 1);
+    }
+
+    75% {
+        -webkit-transform: translate(20px, 15px) scale(1.1, 1.1);
+        transform: translate(20px, 15px) scale(1.1, 1.1);
+    }
+}
