@@ -11,21 +11,21 @@
 
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="current sa-dropdown"><a href="#home"><span><i class="fas fa-home"></i></span>Home</a>
+                    <li class="current sa-dropdown"><a href="#home"><span><i class="fas fa-home"></i></span>Inicio</a>
                         <ul class="sa-dropdown-menu">
-                            <li><a href="index.html">Home V-1</a></li>
-                            <li class="active"><a href="index1.html">Home V-2</a></li>
+                            <li><a href="index.html">Inicio</a></li>
+                            <li class="active"><a href="index1.html">Inicio</a></li>
                         </ul>
                     </li>
-                    <li><a href="#service"><span><i class="fas fa-briefcase"></i></span>Services</a></li>
-                    <li><a href="#resume"><span><i class="fas fa-list-alt"></i></span>Resume</a></li>
-                    <li><a href="#projects"><span><i class="fas fa-clipboard-list"></i></span>Projects</a></li>
+                    <li><a href="#service"><span><i class="fas fa-briefcase"></i></span>Expertís</a></li>
+                    <li><a href="#resume"><span><i class="fas fa-list-alt"></i></span>Profesional</a></li>
+                    <li><a href="#projects"><span><i class="fas fa-clipboard-list"></i></span>Proyectos</a></li>
                     <li><a href="#blog"><span><i class="fab fa-blogger"></i></span>Blog</a></li>
-                    <li><a href="#contact"><span><i class="fas fa-phone-alt"></i></span>Contact</a></li>
+                    <li><a href="#contact"><span><i class="fas fa-phone-alt"></i></span>Contacto</a></li>
                 </ul>
             </div>
             <div class="button">
-                <a href="#live-chat"><span><i class="fas fa-comments"></i></span>Live Chat</a>
+                <a href="#live-chat"><span><i class="fas fa-comments"></i></span>Chat directo</a>
             </div>
         </div><!-- /.container -->
     </nav><!-- /.navbar -->

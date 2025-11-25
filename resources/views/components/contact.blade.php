@@ -2,10 +2,14 @@
     <div class="section-content section-padding bg-color">
         <div class="container">
             <div class="section-title style-1">
-                <h1>Contact Me</h1>
-                <p>Clients: Some Bigest Name consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                    viverra maecenas accumsan lacus vel facilisis.</p>
+                <h1>Contáctame</h1>
+                <p>
+                    >> Comandante Díaz Osorio iniciando la secuencia de contacto.<br>
+                    >> Si tienes una misión que requiera código robusto o solo quieres charlar sobre tecnología, este es
+                    tu canal de comunicación. Llena el formulario; estoy listo para la telemetría y el debug de tu
+                    próximo proyecto.<br>
+                    >> [Esperando tu transmisión.]
+                </p>
                 <span><img src="{{ asset('img/elements/line.png') }}" alt="Image" class="img-fluid"></span>
             </div>
 
@@ -13,71 +17,51 @@
                 <div class="contact-info">
                     <ul class="global-list">
                         <li>
-                            <div class="contact">
-                                <div class="icon">
-                                    <i class="fas fa-envelope-open"></i>
+                            <a href="mailto:christo996@hotmail.com">
+                                <div class="contact">
+                                    <div class="icon">
+                                        <i class="fas fa-envelope-open"></i>
+                                    </div>
+                                    <h2>Correo</h2>
                                 </div>
-                                <h2>E-mail</h2>
-                                <a href="#">example@gmail.com</a>
-                            </div>
+                            </a>
                         </li>
                         <li>
-                            <div class="contact">
-                                <div class="icon">
-                                    <i class="fas fa-phone-alt"></i>
+                            <a href="tel:5518447614">
+                                <div class="contact">
+                                    <div class="icon">
+                                        <i class="fas fa-phone-alt"></i>
+                                    </div>
+                                    <h2>Teléfono</h2>
                                 </div>
-                                <h2>Phone</h2>
-                                <a href="tel:01234567890"> +0 123-456-7890</a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="contact">
-                                <div class="icon">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                </div>
-                                <h2>Location</h2>
-                                <address>123 len Road, NewYork, U.S.A</address>
-                            </div>
+                            </a>
                         </li>
                     </ul>
                 </div><!-- /.contact-info -->
 
                 <div class="form-content">
-                    <h3>Type Message</h3>
+                    <h3>Déjame un mensaje</h3>
                     <form id="contactform" class="contact-form" action="mail.php" method="post" enctype="text/plain"
                         novalidate="novalidate">
-                        <input class="form-control" name="name" type="text" placeholder="Name*" value=""
+                        <input class="form-control" name="name" type="text" placeholder="Nombre completo*" value=""
                             size="30" aria-required="true" required="required">
 
-                        <input class="form-control" name="email" type="email" placeholder="Email address"
+                        <input class="form-control" name="email" type="email" placeholder="tisito@tisito.com"
                             value="" size="30" aria-required="true" required="required">
 
-                        <input class="form-control" name="phone" type="text"
-                            placeholder="Phone number / website (optional)" value="" size="30"
-                            aria-required="true" required="required">
-
                         <select class="form-control">
-                            <option value="">Select services</option>
-                            <option value="">Web Development</option>
-                            <option value="">SEO Marketing</option>
-                            <option value="">Graphices Design</option>
+                            <option value="">Selecciona motivo</option>
+                            <option value="work">Motivos laborales</option>
+                            <option value="me">Motivos personales</option>
+                            <option value="suggestion">Sugerencias</option>
+                            <option value="other">Otro</option>
                         </select>
 
-                        <textarea name="message" class="form-control" required="required" rows="7" placeholder="Message..."></textarea>
+                        <textarea name="message" class="form-control" required="required" rows="7" placeholder="Mensaje..."></textarea>
                         <div class="flashinfo"></div>
                         <div class="d-md-flex justify-content-md-between mt-5">
                             <div class="button align-self-center">
                                 <input type="submit" class="btn btn-primary btn-l" value="Send Your Message">
-                            </div>
-                            <div class="social align-self-center">
-                                <ul class="global-list">
-                                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-pinterest-square"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-skype"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-snapchat-ghost"></i></a></li>
-                                </ul>
                             </div>
                         </div>
                     </form>

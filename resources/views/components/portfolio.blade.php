@@ -1,8 +1,32 @@
+<div class="sa-section">
+    <div class="section-content bg-black section-padding">
+        <div class="container">
+            <div class="cta-content">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="cta-info">
+                            <p>
+                                <i>"El código es mi Cohete, la web, mi Universo."</i> - Pensamiento personal
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="cta-shap">
+                            <div class="shap shap-1">
+                                <img src="{{ asset('img/elements/moon.png') }}" alt="Image" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.container -->
+    </div><!-- /.section-content -->
+</div>
+
 <div id="projects" class="sa-section">
     <div class="section-content section-padding">
         <div class="container">
             <div class="section-title">
-                <span>Los más destacados</span>
                 <h1>Mis Proyectos</h1>
             </div>
 
@@ -118,7 +142,8 @@
                     <div class="col-md-6 col-lg-4 portfolio-item webPlatform">
                         <div class="portfolio">
                             <div class="portfolio-thumb">
-                                <img src="{{ asset('img/evidencias/wplat-1.jpg') }}" alt="Image" class="img-fluid">
+                                <img src="{{ asset('img/evidencias/wplat-1.jpg') }}" alt="Image"
+                                    class="img-fluid">
                             </div>
                             <div class="portfolio-overlay">
                                 <h2>UI/UX Design In- 2021</h2>

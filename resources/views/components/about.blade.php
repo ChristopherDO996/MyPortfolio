@@ -10,28 +10,37 @@
                     </div>
                     <div class="col-lg-7">
                         <div class="section-title">
-                            <span>About Myself</span>
-                            <h1>About Me</h1>
+                            <h1>¡Bienvenido/a a Mi Rincón Digital!</h1>
                         </div>
                         <div class="about-text">
-                            <p>Hi there, Im Asbedy Welisera, I’m always updating my work to something you can see from
-                                here every day, every week and every month. Here i will update everything about how do
-                                trading works and why it changes every year. </p>
-                            <ul class="global-list">
-                                <li><span><i class="fas fa-user-alt"></i></span>Name: Asbedy Welisera</li>
-                                <li><span><i class="fas fa-calendar-alt"></i></span>Birthday: 03 March 1990</li>
-                                <li><span><i class="fas fa-user-alt"></i></span>Age: 30 Years</li>
-                                <li><span><i class="fas fa-envelope"></i></span>Email: example@gmail.com</li>
-                                <li><span><i class="fas fa-phone-alt"></i></span>Phone: +0 123-456-7890</li>
-                                <li><span><i class="fas fa-calendar-alt"></i></span>Interested: Footbal</li>
-                                <li><span><i class="fas fa-graduation-cap"></i></span>Degree: Masters of Computer
-                                    Science</li>
-                            </ul>
+                            <p>Soy Christopher, un desarrollador web Fullstack con más de <strong>cinco años de
+                                    experiencia</strong>
+                                viviendo y respirando código.<br>
+                                Siendo Fullstack, mi campo de juego es amplio: desde la robustez del backend hasta la
+                                estética y usabilidad del frontend. Esto me ha permitido dominar un espectro diverso de
+                                tecnologías, pero más importante aún, me ha enseñado a ver la imagen completa y a
+                                construir soluciones web que son tan sólidas como intuitivas. </p>
+                            <p>
+                                👨‍💻 Mi objetivo no es solo que sepas lo que hago, sino que descubras quién soy.
+                            </p>
+                            <p>
+                                El código es la herramienta, pero la curiosidad, el compromiso y una buena taza de café
+                                son el motor. Si eres un reclutador en busca de un profesional serio, un colega que
+                                quiere colaborar en un proyecto, o un amigo/familiar curioso, te aseguro que detrás de
+                                este código hay una persona con la que vale la pena conversar.
+                            </p>
+                            <p>
+                                <strong>¡Echa un vistazo y luego, no dudes en escribirme!</strong> Estoy seguro de que
+                                querrás conocerme
+                                en persona.
+                            </p>
                             <div class="buttons">
-                                <a href="#" class="btn btn-primary">Download CV <span><i
-                                            class="fas fa-download"></i></span></a>
-                                <a href="#" class="btn btn-white">Send Message <span><i
-                                            class="fas fa-angle-double-right"></i></span></a>
+                                <a href="#" class="btn btn-white">
+                                    Envíame un mensaje
+                                    <span>
+                                        <i class="fas fa-angle-double-right"></i>
+                                    </span>
+                                </a>
                             </div>
                         </div>
                     </div>

@@ -82,7 +82,7 @@ a:hover {
 }
 
 :root {
-    --primary-color: #fc274d;
+    --primary-color: #003785;
     --primary-font: 'Poppins', sans-serif;
 }
 
@@ -172,9 +172,7 @@ select:focus,
     z-index: -1;
     opacity: 0;
     transition: opacity 0.5s ease-out;
-    background-image: -webkit-linear-gradient(320deg, #fc274d, #fa9e3c 40%, #fc274d 100%);
-    background-image: -o-linear-gradient(320deg, #fc274d, #fa9e3c 40%, #fc274d 100%);
-    background-image: linear-gradient(50deg, #fc274d, #fa9e3c 40%, #fc274d 100%);
+    background-image: linear-gradient(50deg, #003785, #2174d4 40%, #014ba0 100%);
 }
 
 .btn.btn-primary:hover,
@@ -393,6 +391,10 @@ body {
     transition: all 500ms;
 }
 
+body .main-wrapper {
+    overflow-x: hidden;
+}
+
 body.sidebar-active>#ncf-overlay {
     opacity: 1;
     visibility: visible;
@@ -604,7 +606,7 @@ body.sidebar-active>#ncf-overlay {
 }
 
 .sa-menu-style-1 .navbar:after {
-    background-color: #fb1700;
+    background-color: var(--primary-color);
     right: 0;
 }
 
@@ -628,23 +630,23 @@ body.sidebar-active>#ncf-overlay {
 }
 
 .sa-menu-style-1 .navbar-nav li:nth-child(1) a {
-    background-color: #ff8b00;
+    background-color: var(--primary-color);
 }
 
 .sa-menu-style-1 .navbar-nav li:nth-child(2) a {
-    background-color: #f7941d;
+    background-color: #014ba0;
 }
 
 .sa-menu-style-1 .navbar-nav li:nth-child(4) a {
-    background-color: #ed1c24;
+    background-color: #0a5cb8;
 }
 
 .sa-menu-style-1 .navbar-nav li:nth-child(3) a {
-    background-color: #f26522;
+    background-color: #1466c3;
 }
 
 .sa-menu-style-1 .navbar-nav li:nth-child(5) a {
-    background-color: #e10337;
+    background-color: #2174d4;
 }
 
 .sa-menu-style-1 .button {
@@ -689,7 +691,6 @@ body.sidebar-active>#ncf-overlay {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(30, 34, 53, 0.7);
 }
 
 .banner-content .profile-thumb {
@@ -843,11 +844,6 @@ body.sidebar-active>#ncf-overlay {
 
 .about-2 .text {
     align-self: center;
-}
-
-.sa-banner.banner-2 .banner-content:before {
-    background-color: transparent;
-    background-image: linear-gradient(to top, rgb(15, 18, 31) 10%, rgba(15, 18, 31, 0.1));
 }
 
 .sa-banner .profile-thumb .shap {
@@ -2065,7 +2061,7 @@ body.sidebar-active>#ncf-overlay {
 .contact-content .btn.btn-primary {
     margin-top: 20px;
     border: 0;
-    background-image: linear-gradient(50deg, #fc274d, #fa9e3c 40%, #fc274d 100%);
+    background-image: linear-gradient(50deg, #003785, #2174d4 40%, #014ba0 100%);
 }
 
 .contact-content .social {
@@ -2567,9 +2563,7 @@ button,
     visibility: hidden;
     z-index: 99999999999999999;
     position: fixed;
-    background-image: -webkit-linear-gradient(left, #faa03c, #fc4649);
-    background-image: -o-linear-gradient(left, #faa03c, #fc4649);
-    background-image: linear-gradient(to right, #faa03c, #fc4649);
+    background-image: linear-gradient(50deg, #003785, #2174d4 40%, #014ba0 100%);
 }
 
 #scrollUp.show {

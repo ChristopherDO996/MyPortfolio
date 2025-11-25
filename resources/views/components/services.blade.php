@@ -2,8 +2,7 @@
     <div class="section-content section-padding bg-color">
         <div class="container">
             <div class="section-title">
-                <span>Awesome Services</span>
-                <h1>Fastest Services</h1>
+                <h1>Áreas de expertís</h1>
             </div>
 
             <div class="service-content">
@@ -12,28 +11,29 @@
                         <a class="nav-link active" id="web-tab" data-toggle="tab" href="#web"
                             aria-controls="web"><span><img src="images/service/s-1.png" alt="Image"
                                     class="img-fluid icon"> <img src="images/service/s-1-hover.png" alt="Image"
-                                    class="img-fluid icon-hover"></span>Web Development</a>
+                                    class="img-fluid icon-hover"></span>Desarrollo Web Front-End</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" id="social-tab" data-toggle="tab" href="#social"
                             aria-controls="seo"><span><img src="images/service/s-2.png" alt="Image"
                                     class="img-fluid icon"> <img src="images/service/s-2-hover.png" alt="Image"
-                                    class="img-fluid icon-hover"></span>SEO Marketing</a>
+                                    class="img-fluid icon-hover"></span>Desarrollo Web Backend</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" id="graphices-tab" data-toggle="tab" href="#graphices"
                             aria-controls="graphices"><span><img src="images/service/s-3.png" alt="Image"
                                     class="img-fluid icon"> <img src="images/service/s-3-hover.png" alt="Image"
-                                    class="img-fluid icon-hover"></span>Graphices Design</a>
+                                    class="img-fluid icon-hover"></span>Bases de datos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" id="app-tab" data-toggle="tab" href="#app"
                             aria-controls="app"><span><img src="images/service/s-4.png" alt="Image"
                                     class="img-fluid icon"> <img src="images/service/s-4-hover.png" alt="Image"
-                                    class="img-fluid icon-hover"></span>App Development</a>
+                                    class="img-fluid icon-hover"></span>DevOps</a>
                     </li>
                 </ul>
 
+                {{-- TODO: Agregar cada uno de los servicios en las cards --}}
                 <div class="tab-content">
                     <div class="tab-pane fade show active" id="web">
                         <div class="row">

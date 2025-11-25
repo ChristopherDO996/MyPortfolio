@@ -1,9 +1,9 @@
+{{-- TODO: Agregar todo --}}
 <div id="resume" class="sa-section">
     <div class="section-content section-padding">
         <div class="container">
             <div class="section-title">
-                <span>More About of Me</span>
-                <h1>My Experience and Acquaintance</h1>
+                <h1>Mi experiencia profesional</h1>
             </div>
             <div class="experience-content">
                 <div class="tab-menu">
@@ -12,25 +12,25 @@
                             <a class="nav-link " id="personal-tab" data-toggle="tab" href="#personal"
                                 aria-controls="personal"><span><img src="images/others/icon1.png" alt="Image"
                                         class="img-fluid icon"> <img src="images/others/icon1-hover.png" alt="Image"
-                                        class="img-fluid icon-hover"></span>Personal Info</a>
+                                        class="img-fluid icon-hover"></span>Laboral</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" id="education-tab" data-toggle="tab" href="#education"
                                 aria-controls="education"><span><img src="images/others/icon2.png" alt="Image"
                                         class="img-fluid icon"> <img src="images/others/icon2-hover.png" alt="Image"
-                                        class="img-fluid icon-hover"></span>My Education</a>
+                                        class="img-fluid icon-hover"></span>Educación</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="awards-tab" data-toggle="tab" href="#awards"
                                 aria-controls="awards"><span><img src="images/others/icon3.png" alt="Image"
                                         class="img-fluid icon"> <img src="images/others/icon3-hover.png" alt="Image"
-                                        class="img-fluid icon-hover"></span>My Awards</a>
+                                        class="img-fluid icon-hover"></span>Personal</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="computer-tab" data-toggle="tab" href="#computer"
                                 aria-controls="computer"><span><img src="images/others/icon4.png" alt="Image"
                                         class="img-fluid icon"> <img src="images/others/icon4-hover.png" alt="Image"
-                                        class="img-fluid icon-hover"></span>Computer Skill</a>
+                                        class="img-fluid icon-hover"></span>Logros</a>
                         </li>
                     </ul>
                 </div>
