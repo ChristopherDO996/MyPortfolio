@@ -2,6 +2,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,3 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 })->name("home");
+
+// Route::get('profile', [UserController::class, 'show'])->middleware('auth');
+
+Route::get('dashboard', [PageController::class, 'dashboard']);

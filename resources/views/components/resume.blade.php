@@ -9,34 +9,45 @@
                 <div class="tab-menu">
                     <ul class="nav nav-tabs text-center">
                         <li class="nav-item">
-                            <a class="nav-link " id="personal-tab" data-toggle="tab" href="#personal"
-                                aria-controls="personal"><span><img src="images/others/icon1.png" alt="Image"
-                                        class="img-fluid icon"> <img src="images/others/icon1-hover.png" alt="Image"
-                                        class="img-fluid icon-hover"></span>Laboral</a>
+                            <a class="nav-link " id="job-tab" data-toggle="tab" href="#job"
+                                aria-controls="job">
+                                <span>
+                                    <i class="fa fa-briefcase" aria-hidden="true"></i>
+                                </span>
+                                Laboral
+                            </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" id="education-tab" data-toggle="tab" href="#education"
-                                aria-controls="education"><span><img src="images/others/icon2.png" alt="Image"
-                                        class="img-fluid icon"> <img src="images/others/icon2-hover.png" alt="Image"
-                                        class="img-fluid icon-hover"></span>Educación</a>
+                                aria-controls="education">
+                                <span>
+                                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                </span>
+                                Educación
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="awards-tab" data-toggle="tab" href="#awards"
-                                aria-controls="awards"><span><img src="images/others/icon3.png" alt="Image"
-                                        class="img-fluid icon"> <img src="images/others/icon3-hover.png" alt="Image"
-                                        class="img-fluid icon-hover"></span>Personal</a>
+                            <a class="nav-link" id="personal-tab" data-toggle="tab" href="#personal" aria-controls="personal">
+                                <span>
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                </span>
+                                Personal
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="computer-tab" data-toggle="tab" href="#computer"
-                                aria-controls="computer"><span><img src="images/others/icon4.png" alt="Image"
-                                        class="img-fluid icon"> <img src="images/others/icon4-hover.png" alt="Image"
-                                        class="img-fluid icon-hover"></span>Logros</a>
+                            <a class="nav-link" id="achieve-tab" data-toggle="tab" href="#achieve"
+                                aria-controls="achieve"><span>
+                                    <i class="fa fa-trophy" aria-hidden="true"></i>
+                                </span>
+                                Logros
+                            </a>
                         </li>
                     </ul>
                 </div>
                 <div class="experience-tab-content">
                     <div class="tab-content">
-                        <div class="tab-pane fade" id="personal">
+                        {{-- TODO: Completar --}}
+                        <div class="tab-pane fade" id="job">
                             <div class="personal">
                                 <ul class="global-list">
                                     <li>
@@ -67,7 +78,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="tab-pane fade  show active" id="education">
+                        <div class="tab-pane fade show active" id="education">
                             <div class="experience">
                                 <ul class="global-list">
                                     <li>
@@ -112,90 +123,38 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="awards">
-                            <div class="my-mwards">
-                                <ul class="global-list mwards-header">
+                        <div class="tab-pane fade show active" id="personal">
+                            <div class="personal">
+                                <ul class="global-list">
                                     <li>
-                                        <h3>Company Name</h3>
-                                        <h3>Date</h3>
-                                        <h3>Detailes</h3>
+                                        <span class="icon"><i class="fas fa-address-card"></i></span>
+                                        <strong>Address</strong>
+                                        I’m living in some Street-232 NY, USA
                                     </li>
                                     <li>
-                                        <div class="sa-left">
-                                            <div class="logo">
-                                                <img src="images/others/logo1.png" alt="Logo" class="img-fluid">
-                                            </div>
-                                            <div class="text">
-                                                <h4>Cason Group</h4>
-                                                <p>Category: Web design</p>
-                                            </div>
-                                        </div>
-                                        <div class="sa-middle">
-                                            <strong>6</strong>
-                                            <span>Awards</span>
-                                        </div>
-                                        <div class="sa-right">
-                                            <a href="#" class="btn">View Detailes</a>
-                                        </div>
+                                        <span class="icon"><i class="fas fa-birthday-cake"></i></span>
+                                        <strong>Birth Date</strong>
+                                        1st January 1999, Santiago Medical, California
                                     </li>
                                     <li>
-                                        <div class="sa-left">
-                                            <div class="logo">
-                                                <img src="images/others/logo2.png" alt="Logo" class="img-fluid">
-                                            </div>
-                                            <div class="text">
-                                                <h4>RicroLab</h4>
-                                                <p>Category: Software</p>
-                                            </div>
-                                        </div>
-                                        <div class="sa-middle">
-                                            <strong>3</strong>
-                                            <span>Awards</span>
-                                        </div>
-                                        <div class="sa-right">
-                                            <a href="#" class="btn">View Detailes</a>
-                                        </div>
+                                        <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+                                        <strong>Location</strong>
+                                        1st January 1999, Santiago Medical, California
                                     </li>
                                     <li>
-                                        <div class="sa-left">
-                                            <div class="logo">
-                                                <img src="images/others/logo3.png" alt="Logo" class="img-fluid">
-                                            </div>
-                                            <div class="text">
-                                                <h4>DesignHubo</h4>
-                                                <p>Category: Graphics</p>
-                                            </div>
-                                        </div>
-                                        <div class="sa-middle">
-                                            <strong>4</strong>
-                                            <span>Awards</span>
-                                        </div>
-                                        <div class="sa-right">
-                                            <a href="#" class="btn">View Detailes</a>
-                                        </div>
+                                        <span class="icon"><i class="fas fa-envelope"></i></span>
+                                        <strong>Mail</strong>
+                                        yourmail@gmail.com, themelightnet@gmail.com
                                     </li>
                                     <li>
-                                        <div class="sa-left">
-                                            <div class="logo">
-                                                <img src="images/others/logo4.png" alt="Logo" class="img-fluid">
-                                            </div>
-                                            <div class="text">
-                                                <h4>Pgrammer.com</h4>
-                                                <p>Category: Game</p>
-                                            </div>
-                                        </div>
-                                        <div class="sa-middle">
-                                            <strong>6</strong>
-                                            <span>Awards</span>
-                                        </div>
-                                        <div class="sa-right">
-                                            <a href="#" class="btn">View Detailes</a>
-                                        </div>
+                                        <span class="icon"><i class="fas fa-phone-alt"></i></span>
+                                        <strong>Phone</strong>
+                                        +771-256779737, +919-89971979
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="computer">
+                        <div class="tab-pane fade" id="achieve">
                             <div class="computer-skill">
                                 <div id="accordion">
                                     <div class="card">
@@ -305,31 +264,31 @@
                 </div>
                 <div class="quick-manage text-center">
                     <div class="manage-content">
-                        <h2>Quick Manage</h2>
+                        <h2>Acciones rápidas</h2>
                         <div class="manage-list">
                             <a href="#" class="manage">
                                 <div class="icon">
-                                    <img src="images/others/icon5.png" alt="Image" class="img-fluid">
+                                    <i class="fa fa-file-pdf" aria-hidden="true"></i>
                                 </div>
-                                <span>Preview CV</span>
+                                <span>Visualizar CV</span>
                             </a>
                             <a href="#" class="manage">
                                 <div class="icon">
-                                    <img src="images/others/icon6.png" alt="Image" class="img-fluid">
+                                    <i class="fab fa-codepen" aria-hidden="true"></i>
                                 </div>
-                                <span>Download CV</span>
+                                <span>Codepen</span>
                             </a>
                             <a href="#" class="manage">
                                 <div class="icon">
-                                    <img src="images/others/icon7.png" alt="Image" class="img-fluid">
+                                    <i class="fa fa-cubes" aria-hidden="true"></i>
                                 </div>
-                                <span>Contact Me</span>
+                                <span>Micro proyectos</span>
                             </a>
                             <a href="#" class="manage">
                                 <div class="icon">
-                                    <img src="images/others/icon8.png" alt="Image" class="img-fluid">
+                                    <i class="fa fa-rocket" aria-hidden="true"></i>
                                 </div>
-                                <span>Live Chat</span>
+                                <span>APIs</span>
                             </a>
                         </div>
                     </div>

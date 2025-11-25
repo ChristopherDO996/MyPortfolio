@@ -4,11 +4,14 @@
             <div class="section-title style-1">
                 <h1>Contáctame</h1>
                 <p>
-                    >> Comandante Díaz Osorio iniciando la secuencia de contacto.<br>
-                    >> Si tienes una misión que requiera código robusto o solo quieres charlar sobre tecnología, este es
+                    {{-- TODO: Animar en forma de código --}}
+                    <i class="fa fa-terminal" aria-hidden="true"></i> Comandante Díaz Osorio iniciando la secuencia de
+                    contacto.<br>
+                    <i class="fa fa-terminal" aria-hidden="true"></i> Si tienes una misión que requiera código robusto o
+                    solo quieres charlar sobre tecnología, este es
                     tu canal de comunicación. Llena el formulario; estoy listo para la telemetría y el debug de tu
                     próximo proyecto.<br>
-                    >> [Esperando tu transmisión.]
+                    <i class="fa fa-terminal" aria-hidden="true"></i> [Esperando tu transmisión.]
                 </p>
                 <span><img src="{{ asset('img/elements/line.png') }}" alt="Image" class="img-fluid"></span>
             </div>
@@ -43,8 +46,8 @@
                     <h3>Déjame un mensaje</h3>
                     <form id="contactform" class="contact-form" action="mail.php" method="post" enctype="text/plain"
                         novalidate="novalidate">
-                        <input class="form-control" name="name" type="text" placeholder="Nombre completo*" value=""
-                            size="30" aria-required="true" required="required">
+                        <input class="form-control" name="name" type="text" placeholder="Nombre completo*"
+                            value="" size="30" aria-required="true" required="required">
 
                         <input class="form-control" name="email" type="email" placeholder="tisito@tisito.com"
                             value="" size="30" aria-required="true" required="required">
