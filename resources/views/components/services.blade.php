@@ -6,7 +6,7 @@
             </div>
 
             <div class="service-content">
-                <ul class="nav nav-tabs service-tabs text-center">
+                <ul class="nav nav-tabs service-tabs text-center" id="service-tabs">
                     <li class="nav-item">
                         <a class="nav-link active" id="front-tab" data-toggle="tab" href="#front" aria-controls="front">
                             <span>
@@ -48,13 +48,31 @@
                             <div class="col-md-6 col-lg-4">
                                 <div class="service">
                                     <div class="icon">
-                                        <i>PHP</i>
+                                        <i>html</i>
                                     </div>
-                                    <h2>PHP Programming</h2>
-                                    <p>Aliqua. Quis ipsum suspendigravia Risus commodo viveecenas cumsa lacus velro
-                                        facilissanctus est doamez</p>
-                                    <h3>Starting at $250 - $360</h3>
-                                    <a href="#" class="btn btn-primary">Confirm Detailes</a>
+                                    <h2>HTML</h2>
+                                    <p>...</p>
+                                    <h6>Frameworks:</h6>
+                                </div><!-- /.service -->
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="service">
+                                    <div class="icon">
+                                        <i>css</i>
+                                    </div>
+                                    <h2>CSS</h2>
+                                    <p>...</p>
+                                    <h6>Frameworks:</h6>
+                                </div><!-- /.service -->
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="service">
+                                    <div class="icon">
+                                        <i>JS</i>
+                                    </div>
+                                    <h2>JS</h2>
+                                    <p>...</p>
+                                    <h6>Frameworks:</h6>
                                 </div><!-- /.service -->
                             </div>
                         </div>
@@ -66,11 +84,19 @@
                                     <div class="icon">
                                         <i>PHP</i>
                                     </div>
-                                    <h2>Social Media Marketing</h2>
-                                    <p>Aliqua. Quis ipsum suspendigravia Risus commodo viveecenas cumsa lacus velro
-                                        facilissanctus est doamez</p>
-                                    <h3>Starting at $250 - $360</h3>
-                                    <a href="#" class="btn btn-primary">Confirm Detailes</a>
+                                    <h2>PHP</h2>
+                                    <p>...</p>
+                                    <h6>Frameworks:</h6>
+                                </div><!-- /.service -->
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="service">
+                                    <div class="icon">
+                                        <i>Python</i>
+                                    </div>
+                                    <h2>Python</h2>
+                                    <p>...</p>
+                                    <h6>Frameworks:</h6>
                                 </div><!-- /.service -->
                             </div>
                         </div>
@@ -82,11 +108,9 @@
                                     <div class="icon">
                                         <i>PHP</i>
                                     </div>
-                                    <h2>Adobe Illustrator</h2>
-                                    <p>Aliqua. Quis ipsum suspendigravia Risus commodo viveecenas cumsa lacus velro
-                                        facilissanctus est doamez</p>
-                                    <h3>Starting at $250 - $360</h3>
-                                    <a href="#" class="btn btn-primary">Confirm Detailes</a>
+                                    <h2>MySQL</h2>
+                                    <p>...</p>
+                                    <h6>Frameworks:</h6>
                                 </div><!-- /.service -->
                             </div>
                         </div>
@@ -98,11 +122,9 @@
                                     <div class="icon">
                                         <i>PHP</i>
                                     </div>
-                                    <h2>Social Media Marketing</h2>
-                                    <p>Aliqua. Quis ipsum suspendigravia Risus commodo viveecenas cumsa lacus velro
-                                        facilissanctus est doamez</p>
-                                    <h3>Starting at $250 - $360</h3>
-                                    <a href="#" class="btn btn-primary">Confirm Detailes</a>
+                                    <h2>Ciencia de datos</h2>
+                                    <p>...</p>
+                                    <h6>Frameworks:</h6>
                                 </div><!-- /.service -->
                             </div>
                         </div>

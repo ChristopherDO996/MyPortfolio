@@ -49,6 +49,7 @@
     </div><!-- /.main-wrapper -->
 
     @include('partials.footer')
+    @include('partials.modals')
     @include('partials.scripts')
 </body>
 

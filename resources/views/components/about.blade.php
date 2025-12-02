@@ -30,9 +30,7 @@
                                 este código hay una persona con la que vale la pena conversar.
                             </p>
                             <p>
-                                <strong>¡Echa un vistazo y luego, no dudes en escribirme!</strong> Estoy seguro de que
-                                querrás conocerme
-                                en persona.
+                                <strong>¡Echa un vistazo y luego, no dudes en escribirme!</strong>
                             </p>
                             <div class="buttons">
                                 <a href="#" class="btn btn-white">

@@ -5,43 +5,14 @@
                 <h1>Contáctame</h1>
                 <p>
                     {{-- TODO: Animar en forma de código --}}
-                    <i class="fa fa-terminal" aria-hidden="true"></i> Comandante Díaz Osorio iniciando la secuencia de
-                    contacto.<br>
-                    <i class="fa fa-terminal" aria-hidden="true"></i> Si tienes una misión que requiera código robusto o
-                    solo quieres charlar sobre tecnología, este es
-                    tu canal de comunicación. Llena el formulario; estoy listo para la telemetría y el debug de tu
-                    próximo proyecto.<br>
-                    <i class="fa fa-terminal" aria-hidden="true"></i> [Esperando tu transmisión.]
+                    <i class="fa fa-terminal" aria-hidden="true"></i>
+                    Si tienes una misión que requiera código robusto o sólo quieres charlar sobre tecnología, este es tu
+                    canal de comunicación. Llena el formulario; estoy listo para la telemetría y el debug de tu próximo
+                    proyecto.
                 </p>
-                <span><img src="{{ asset('img/elements/line.png') }}" alt="Image" class="img-fluid"></span>
             </div>
 
             <div class="contact-content style-1">
-                <div class="contact-info">
-                    <ul class="global-list">
-                        <li>
-                            <a href="mailto:christo996@hotmail.com">
-                                <div class="contact">
-                                    <div class="icon">
-                                        <i class="fas fa-envelope-open"></i>
-                                    </div>
-                                    <h2>Correo</h2>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="tel:5518447614">
-                                <div class="contact">
-                                    <div class="icon">
-                                        <i class="fas fa-phone-alt"></i>
-                                    </div>
-                                    <h2>Teléfono</h2>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div><!-- /.contact-info -->
-
                 <div class="form-content">
                     <h3>Déjame un mensaje</h3>
                     <form id="contactform" class="contact-form" action="mail.php" method="post" enctype="text/plain"
@@ -54,8 +25,8 @@
 
                         <select class="form-control">
                             <option value="">Selecciona motivo</option>
-                            <option value="work">Motivos laborales</option>
-                            <option value="me">Motivos personales</option>
+                            <option value="work">Laboral</option>
+                            <option value="me">Personal</option>
                             <option value="suggestion">Sugerencias</option>
                             <option value="other">Otro</option>
                         </select>
@@ -64,7 +35,7 @@
                         <div class="flashinfo"></div>
                         <div class="d-md-flex justify-content-md-between mt-5">
                             <div class="button align-self-center">
-                                <input type="submit" class="btn btn-primary btn-l" value="Send Your Message">
+                                <input type="submit" class="btn btn-primary btn-l" value="Enviar">
                             </div>
                         </div>
                     </form>
